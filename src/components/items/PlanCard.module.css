@@ -1,0 +1,121 @@
+.container {
+  width: 300px;
+  max-width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 10px gray;
+  margin: 24px 0;
+  padding: 24px 20px 0;
+  box-sizing: border-box;
+  min-height: 190px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 2px 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 32px;
+}
+.duration {
+  color: rgb(115, 115, 115);
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.recommended {
+  background-color: black;
+  position: absolute;
+  top: -10px;
+  right: 6px;
+  font-size: 12px;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+.save {
+  position: absolute;
+  width: 70px;
+  top: 0px;
+  /* right: 80%; */
+  left: -5%;
+  padding-left: 12px;
+  font-size: 11px;
+  background-color: rgb(252, 171, 20);
+  transform: rotate(-30deg);
+}
+
+.oldPrice {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 24px;
+  align-items: center;
+  color: rgb(86, 86, 86);
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+.line {
+  position: absolute;
+  display: inline-block;
+  height: 0.8px;
+  background-color: red;
+  left: 0;
+  width: 70px;
+  top: 49%;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 0;
+  color: white;
+  border-radius: 28px;
+  cursor: pointer;
+  background-color: rgba(233, 157, 24, 1);
+  transition: background-color 0.4s ease;
+  margin: 18px 0;
+  font-size: 14px;
+  width: 80%;
+}
+
+.button:hover {
+  background: linear-gradient(
+    to right,
+    rgba(233, 157, 24, 1) 50%,
+    black 50%
+  ); /* Reverse gradient */
+  background-size: 200% 100%;
+  transition: background-position 0.4s;
+  background-position: -100% 0;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .button {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}

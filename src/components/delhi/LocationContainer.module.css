@@ -1,0 +1,79 @@
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 32px 0;
+}
+.heading2 {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  font-weight: 400;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+.boldText {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-items: flex-start;
+  width: 100%;
+}
+
+.locationCards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.warningText {
+  text-align: center;
+  word-break: break-all;
+  width: 100%;
+  margin: 24px 0 44px 0;
+  color: rgb(75, 75, 75);
+}
+
+.mapContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 56px 0 18px 0;
+}
+
+.iFrameIcon {
+  width: 650px;
+  height: 400px;
+}
+
+.bouncy {
+  animation: bounce 0.3s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

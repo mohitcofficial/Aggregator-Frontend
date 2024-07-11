@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 90%;
+  margin: 70px 0;
+}
+
+.leftContainer {
+  width: 45%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 90%;
+  object-fit: cover;
+}
+.rightContainer {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: rgb(48, 48, 48);
+}
+.heading2 {
+  font-size: 36px;
+  margin: 50px 0 30px 0;
+  color: rgb(48, 48, 48);
+}
+
+.heading2 > span {
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  text-align: left;
+  color: rgb(88, 88, 88);
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.blogContainer {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 68px;
+}
+
+@media (max-width: 1200px) and (min-width: 1001px) {
+  .container1 {
+    width: 95%;
+  }
+  .leftContainer,
+  .rightContainer {
+    margin-bottom: 24px;
+    width: 48%;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .blogContainer {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 26px;
+  }
+  .container1 {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftContainer {
+    height: 700px;
+    width: 70%;
+  }
+  .rightContainer {
+    width: 100%;
+    margin: 32px 0 24px 0;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .blogContainer {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .leftContainer {
+    height: 600px;
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .container1 {
+    margin: 70px 0 0 0;
+  }
+  .leftContainer {
+    height: 585px;
+    width: 95%;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .blogContainer {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .leftContainer {
+    height: 400px;
+    width: 95%;
+  }
+  .text {
+    font-size: 13px;
+  }
+  .blogContainer {
+    margin-bottom: 40px;
+  }
+}

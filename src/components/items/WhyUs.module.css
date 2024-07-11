@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 85%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}

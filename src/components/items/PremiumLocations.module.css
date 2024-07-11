@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 56px 0;
+}
+
+.marginBlock {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 750px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.heading > span {
+  font-weight: 600;
+}
+
+.locationContainer {
+  width: 100%;
+  max-width: 100%;
+  padding: 32px 0;
+  display: flex;
+  box-sizing: border-box;
+  gap: 18px;
+  height: 100%;
+}
+.box1 {
+  display: flex;
+  row-gap: 18px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(191, 191, 191);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.card1 {
+  height: 60%;
+}
+.card2 {
+  height: 40%;
+}
+.card3 {
+  height: 33.33%;
+}
+.card4 {
+  height: 50%;
+}
+.card5 {
+  height: 50%;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 21px;
+  z-index: 1;
+  color: white;
+}
+
+.image {
+  width: 100%;
+  border-radius: 24px;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(65%);
+  /* cursor: pointer; */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  border-radius: 18px;
+}
+.image:hover {
+  border-radius: 18px;
+  filter: brightness(80%);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1275px) and (min-width: 1000px) {
+  .marginBlock {
+    height: 580px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 800px) {
+  .marginBlock {
+    height: 480px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .marginBlock {
+    height: 2000px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .locationContainer {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .marginBlock {
+    width: 90%;
+    height: 1800px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .marginBlock {
+    width: 92%;
+    height: 1800px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+  .text {
+    font-size: 16px;
+    /* font-weight: 500; */
+  }
+}

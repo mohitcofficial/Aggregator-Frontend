@@ -1,0 +1,88 @@
+.container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 44px 0 24px 0;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+.text {
+  font-size: 36px;
+}
+.text2 {
+  font-size: 17px;
+}
+.text3 {
+  font-size: 15px;
+  color: rgb(145, 145, 145);
+}
+
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 700;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 18px;
+}
+
+.container2 {
+  box-shadow: -10px 0 10px #00000014;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  padding: 18px 10px;
+  width: 15%;
+  min-width: 180px;
+  transition: scale 1000ms ease-in-out;
+  height: 200px;
+  margin: 24px;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: 20%;
+  left: -50px;
+  font-size: 85px;
+  font-weight: 1000;
+  z-index: -1;
+  filter: blur(1.8px);
+}
+
+.container2:hover {
+  scale: 1.5;
+  box-shadow: 0 0 10px gray;
+}
+.container2:hover .number {
+  filter: blur(0);
+}
+
+@media (max-width: 600px) {
+  .container2:hover {
+    scale: 1.2;
+  }
+  .container2 {
+    min-width: 220px;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+  }
+}

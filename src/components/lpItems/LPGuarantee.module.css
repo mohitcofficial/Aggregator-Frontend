@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(15, 37, 75);
+  background: linear-gradient(
+    45deg,
+    rgba(15, 37, 75, 1) 0%,
+    rgba(86, 118, 139, 1) 43%,
+    rgba(147, 174, 194, 1) 100%
+  );
+  /* background: rgb(189, 37, 37);
+  background: linear-gradient(
+    18deg,
+    rgba(189, 37, 37, 1) 0%,
+    rgba(239, 157, 89, 1) 64%,
+    rgba(241, 200, 33, 1) 100%
+  ); */
+  margin: 44px 0;
+  padding: 44px 0;
+  color: white;
+  align-items: center;
+}
+
+.container2 {
+  width: 70%;
+}
+
+.heading {
+  font-size: 28px;
+  margin: 4px 0;
+}
+.subHeading {
+  font-size: 12px;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin: 24px 0;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  column-gap: 8px;
+  min-width: 450px;
+}
+
+.heading2 {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.text {
+  font-size: 13px;
+}
+
+.icon {
+  margin-top: 8px;
+}
+
+@media (max-width: 1275px) and (min-width: 1000px) {
+  .container2 {
+    width: 85%;
+  }
+}
+@media (max-width: 1000px) {
+  .icon {
+    margin-top: 10px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+}
+@media (max-width: 600px) {
+  .icon {
+    margin-top: 8px;
+  }
+  .container2 {
+    width: 85%;
+  }
+  .card {
+    min-width: 300px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+}
