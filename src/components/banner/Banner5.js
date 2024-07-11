@@ -8,22 +8,22 @@ import TransparentForm from "../form/TransparentForm";
 
 const data = [
   {
-    heading: "Streamline Your Business Registration Process with Cowork Town",
+    heading: "Streamline Your Business Registration Process with Virtualxcel",
     subHeading:
-      "At Cowork Town, we understand the importance of a seamless business registration experience. Whether you're establishing a new venture or expanding your operations, our comprehensive services simplify the process, allowing you to focus on what matters most – growing your business. Discover our tailored solutions designed to meet your registration needs efficiently and effectively.",
+      "At Virtualxcel, we understand the importance of a seamless business registration experience. Whether you're establishing a new venture or expanding your operations, our comprehensive services simplify the process, allowing you to focus on what matters most – growing your business. Discover our tailored solutions designed to meet your registration needs efficiently and effectively.",
     image: Background1,
   },
   {
-    heading: "Simplify Your GST Registration with Cowork Town",
+    heading: "Simplify Your GST Registration with Virtualxcel",
     subHeading:
-      "Ensure compliance and streamline your tax processes with Cowork Town's expert GST registration services. We provide a hassle-free experience, so you can concentrate on your business growth while we handle the complexities of GST registration. Explore our customized solutions for a smooth and efficient registration process.",
+      "Ensure compliance and streamline your tax processes with Virtualxcel's expert GST registration services. We provide a hassle-free experience, so you can concentrate on your business growth while we handle the complexities of GST registration. Explore our customized solutions for a smooth and efficient registration process.",
     image: Background2,
   },
   {
     heading:
       "Elevate Your Business Presence with Professional Mailing Address Services",
     subHeading:
-      "Optimize Your Operations with Cowork Town's Virtual Office Solutions. Gain a prestigious business address and reliable mail handling services tailored to meet your business needs.",
+      "Optimize Your Operations with Virtualxcel's Virtual Office Solutions. Gain a prestigious business address and reliable mail handling services tailored to meet your business needs.",
     image: Background2,
   },
 ];

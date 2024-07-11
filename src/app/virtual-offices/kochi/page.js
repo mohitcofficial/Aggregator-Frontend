@@ -26,25 +26,25 @@ function page() {
         <LocationContainer location={"Kochi"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Kochi!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's esteemed service - Virtual Offices in
+            Welcome to Virtualxcel's esteemed service - Virtual Offices in
             Kochi! Position your business strategically in the heart of Kerala,
             without the constraints of a traditional office setup. Our virtual
             office solutions provide seamless mail handling, efficient call
             forwarding, and access to well-appointed meeting spaces, enabling
             you to project a professional image and conduct business with ease.
             Embrace the flexibility and convenience of virtual offices with
-            Cowork Town in Kochi!
+            Virtualxcel in Kochi!
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Kochi without the overhead costs
             of a physical office. Discover the convenience, flexibility, and
-            professionalism of Cowork Town's virtual offices today!
+            professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

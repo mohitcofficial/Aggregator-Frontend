@@ -9,9 +9,9 @@ import Footer from "@/components/footer/Footer";
 export const metadata = {
   title: "Privacy Policy",
   keywords:
-    "Cowork Town, privacy policy, personal information, data protection, information collection, data usage, privacy terms, coworking space privacy",
+    "Virtualxcel, privacy policy, personal information, data protection, information collection, data usage, privacy terms, coworking space privacy",
   description:
-    "Discover Cowork Town's privacy policy. Understand how we collect, use, and protect your personal information when you use our coworking space services.",
+    "Discover Virtualxcel's privacy policy. Understand how we collect, use, and protect your personal information when you use our coworking space services.",
 };
 
 function page() {
@@ -40,7 +40,7 @@ function page() {
           <div className={` ${classes.outerBlock}`}>
             <div className={classes.block}>
               <h2 className={classes.heading2}>
-                Privacy Policy for Cowork Town
+                Privacy Policy for Virtualxcel
               </h2>
               <p className={classes.text}>
                 This Privacy Policy describes Our policies and procedures on the
@@ -91,7 +91,7 @@ function page() {
                 <li className={classes.text}>
                   <span className={classes.bold}>Company</span>
                   (referred to as either "the Company", "We", "Us" or "Our" in
-                  this Agreement) refers to Cowork Town.
+                  this Agreement) refers to Virtualxcel.
                 </li>
                 <li className={classes.text}>
                   <span className={classes.bold}>Cookies</span>
@@ -135,7 +135,7 @@ function page() {
                 </li>
                 <li className={classes.text}>
                   <span className={classes.bold}>Website</span>
-                  refers to Cowork Town, accessible from
+                  refers to Virtualxcel, accessible from
                   <a
                     style={{ marginLeft: "4px" }}
                     className={classes.link}
@@ -661,7 +661,7 @@ function page() {
               <ul className={classes.points}>
                 <li className={classes.text}>
                   By email:
-                  <span className={classes.bold2}>info@coworktown.com</span>
+                  <span className={classes.bold2}>sales@virtualxcel.in</span>
                 </li>
                 <li className={classes.text}>
                   By visiting this page on our website:

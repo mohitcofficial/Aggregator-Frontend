@@ -12,12 +12,12 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://coworktown.com"),
+  metadataBase: new URL("https://virtualxcel.in"),
   title: {
-    default: "Cowork Town",
-    template: "%s | Cowork Town",
+    default: "Virtualxcel",
+    template: "%s | Virtualxcel",
   },
-  description: "Discover the ultimate coworking experience at Cowork Town.",
+  description: "Discover the ultimate coworking experience at Virtualxcel.",
   twitter: {
     card: "summary_large_image",
   },

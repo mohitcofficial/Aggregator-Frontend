@@ -11,12 +11,12 @@ import { BoxData2 } from "../data/PriceCardData";
 import GSTBenefits from "@/components/items/GSTBenefits";
 
 export const metadata = {
-  title: "Quick and Easy GST Registration Services | Cowork Town",
+  title: "Quick and Easy GST Registration Services | Virtualxcel",
   description:
-    "Get your GST registration done quickly and easily with Cowork Town. Our expert team ensures hassle-free GST compliance for your business. Focus on growth while we handle the complexities of GST registration. Discover our efficient and tailored GST solutions today.",
+    "Get your GST registration done quickly and easily with Virtualxcel. Our expert team ensures hassle-free GST compliance for your business. Focus on growth while we handle the complexities of GST registration. Discover our efficient and tailored GST solutions today.",
   keywords:
-    "GST registration, GST compliance, quick GST registration, hassle-free GST, business GST services, Cowork Town GST, GST solutions",
-  author: "Cowork Town",
+    "GST registration, GST compliance, quick GST registration, hassle-free GST, business GST services, Virtualxcel GST, GST solutions",
+  author: "Virtualxcel",
 };
 
 function page() {

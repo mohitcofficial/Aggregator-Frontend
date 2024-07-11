@@ -13,7 +13,7 @@ import LocationContainer from "@/components/delhi/LocationContainer";
 export const metadata = {
   title: "Virtual Office Space in Noida for GST & Company Address",
   description:
-    "Cowork Town offers affordable virtual office space in Noida where you get professional GST registration & company address and meeting rooms.",
+    "Virtualxcel offers affordable virtual office space in Noida where you get professional GST registration & company address and meeting rooms.",
   robots: "max-image-preview:large",
   canonical: "https://www.coworktown.com/virtual-offices/noida/",
 };
@@ -27,7 +27,7 @@ function page() {
         <LocationContainer location={"Noida"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Noida!
           </p>
           <p className={classes.para}>
@@ -39,10 +39,10 @@ function page() {
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Noida without the overhead costs
             of a physical office. Discover the convenience, flexibility, and
-            professionalism of Cowork Town's virtual offices today!
+            professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

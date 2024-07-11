@@ -34,7 +34,7 @@ function CoworkingBanner() {
             cabins. Join a vibrant community of innovators and entrepreneurs.
             Elevate your productivity with premium amenities and flexible terms.
             Unleash your potential in our collaborative ecosystem. Discover
-            opportunity at Cowork Town. Join us today!
+            opportunity at Virtualxcel. Join us today!
           </div>
         </div>
         <div className={classes.rightContainer}>

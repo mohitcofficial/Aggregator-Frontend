@@ -82,7 +82,7 @@ function LPContactForm() {
       //   SecureToken: "06490094-cfc2-424b-b710-c70d39686a65",
       //   To: "coworktown99@gmail.com",
       //   From: "coworktown99@gmail.com",
-      //   Subject: `New message to COWORK TOWN from ${formState.user_email}`,
+      //   Subject: `New message to Virtualxcel from ${formState.user_email}`,
       //   Body: mailBody,
       // };
 

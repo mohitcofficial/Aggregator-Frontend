@@ -26,24 +26,24 @@ function page() {
         <LocationContainer location={"Hyderabad"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Hyderabad!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's premier service - Virtual Offices in
+            Welcome to Virtualxcel's premier service - Virtual Offices in
             Hyderabad! Seamlessly integrate your business into the vibrant
             cityscape without the constraints of a traditional office space. Our
             virtual office solutions encompass efficient mail handling, seamless
             call forwarding, and access to state-of-the-art meeting facilities.
-            Elevate your professional presence in Hyderabad with Cowork Town
+            Elevate your professional presence in Hyderabad with Virtualxcel
             today!
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Hyderabad without the overhead
             costs of a physical office. Discover the convenience, flexibility,
-            and professionalism of Cowork Town's virtual offices today!
+            and professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

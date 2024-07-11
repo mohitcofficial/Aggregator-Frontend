@@ -26,25 +26,25 @@ function page() {
         <LocationContainer location={"Kerala"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Kerala!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's esteemed service - Virtual Offices in
+            Welcome to Virtualxcel's esteemed service - Virtual Offices in
             Kerala! Seamlessly integrate your business into Kerala's rich
             cultural and economic landscape without the need for a physical
             office space. Our virtual office solutions offer comprehensive mail
             handling, efficient call forwarding, and access to modern meeting
             facilities, empowering you to maintain a professional image and
             conduct business seamlessly. Embrace the convenience and flexibility
-            of virtual offices with Cowork Town in Kerala!
+            of virtual offices with Virtualxcel in Kerala!
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Kerala without the overhead costs
             of a physical office. Discover the convenience, flexibility, and
-            professionalism of Cowork Town's virtual offices today!
+            professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

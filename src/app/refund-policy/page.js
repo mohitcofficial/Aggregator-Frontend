@@ -9,9 +9,9 @@ import Footer from "@/components/footer/Footer";
 export const metadata = {
   title: "Refund Policy",
   keywords:
-    "Cowork Town, refund policy, refund terms, membership refund, service refund, coworking space refund, refund process, refund conditions",
+    "Virtualxcel, refund policy, refund terms, membership refund, service refund, coworking space refund, refund process, refund conditions",
   description:
-    "Read Cowork Town's comprehensive refund policy. Learn about our terms, conditions, and how we handle refunds for our coworking space memberships and services.",
+    "Read Virtualxcel's comprehensive refund policy. Learn about our terms, conditions, and how we handle refunds for our coworking space memberships and services.",
 };
 
 function page() {
@@ -39,7 +39,7 @@ function page() {
         <div className={classes.contentContainer}>
           <div className={` ${classes.outerBlock}`}>
             <div className={classes.block}>
-              <h2 className={classes.heading2}>Cowork Town Refund Policy</h2>
+              <h2 className={classes.heading2}>Virtualxcel Refund Policy</h2>
               <p className={`${classes.text} ${classes.note}`}>
                 Note: Virtual office is Non-refundable and cancellation product,
                 but client will still be eligible as per the given terms and
@@ -85,7 +85,7 @@ function page() {
                 </li>
                 <li className={classes.text}>
                   Google Search didn't find relevant content If your business
-                  entity is not approved by Cowork Town's legal team, you will
+                  entity is not approved by Virtualxcel's legal team, you will
                   receive a full refund minus an admin fee of INR
                   5,000+GST.exclamation
                 </li>
@@ -113,7 +113,7 @@ function page() {
               </p>
               <ul className={classes.points}>
                 <li className={classes.text}>
-                  If Cowork Town approves your KYC but the space partner rejects
+                  If Virtualxcel approves your KYC but the space partner rejects
                   it, you will receive a full refund minus an admin fee of INR
                   2,000+GST.exclamation
                 </li>
@@ -132,7 +132,7 @@ function page() {
                   fees.exclamation
                 </li>
                 <li className={classes.text}>
-                  Cowork Town assists with document preparation but cannot
+                  Virtualxcel assists with document preparation but cannot
                   guarantee approval by government authorities. They will help
                   provide any missing documents upon request.
                 </li>
@@ -140,7 +140,7 @@ function page() {
               <br />
               <p className={classes.text}>
                 <span className={classes.bold}>Please note:</span>
-                This is a general summary of the refund policy for Cowork Town
+                This is a general summary of the refund policy for Virtualxcel
                 Virtual Office product. It is advisable to consult the full
                 terms and conditions on their website for the most up-to-date
                 information.

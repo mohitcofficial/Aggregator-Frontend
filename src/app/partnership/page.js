@@ -9,7 +9,7 @@ import Footer from "@/components/footer/Footer";
 export const metadata = {
   title: "Partner With Us",
   description:
-    "Explore exciting partnership opportunities with Cowork Town. Join forces with us to create innovative programs, events, and initiatives that empower professionals and businesses. Let's collaborate for mutual success.",
+    "Explore exciting partnership opportunities with Virtualxcel. Join forces with us to create innovative programs, events, and initiatives that empower professionals and businesses. Let's collaborate for mutual success.",
 };
 
 function page() {
@@ -29,7 +29,7 @@ function page() {
           <div className={classes.heading}>
             <span className={classes.heading1}>
               <span>Collaborate with</span>
-              <span className={classes.gradientText}>Cowork Town</span>
+              <span className={classes.gradientText}>Virtualxcel</span>
               <span>:</span>
             </span>
             <span> Partner with Us</span>
@@ -39,7 +39,7 @@ function page() {
             CoWork. We’d love to have you onboard with us.
           </div>
           <div className={classes.text}>
-            At Cowork Town, we are passionate about fostering meaningful
+            At Virtualxcel, we are passionate about fostering meaningful
             collaborations and expanding horizons. We believe in the power of
             partnerships to create shared value and drive mutual success. As
             pioneers in the coworking and virtual office space, we are excited

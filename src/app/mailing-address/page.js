@@ -11,12 +11,12 @@ import ReviewSlider from "@/components/slider/ReviewSlider";
 import FrequentQuestions from "@/components/frequent-questions/FrequentQuestions";
 
 export const metadata = {
-  title: "Professional Mailing Address Services | Cowork Town",
+  title: "Professional Mailing Address Services | Virtualxcel",
   description:
-    "Enhance your business image with professional mailing address services from Cowork Town. Establish a credible presence without the need for a physical office. Discover our flexible mailing solutions tailored to your business needs.",
+    "Enhance your business image with professional mailing address services from Virtualxcel. Establish a credible presence without the need for a physical office. Discover our flexible mailing solutions tailored to your business needs.",
   keywords:
-    "professional mailing address, virtual office address, business address services, Cowork Town mailing address, mail handling services, virtual mailbox, business credibility",
-  author: "Cowork Town",
+    "professional mailing address, virtual office address, business address services, Virtualxcel mailing address, mail handling services, virtual mailbox, business credibility",
+  author: "Virtualxcel",
 };
 
 function page() {

@@ -14,10 +14,10 @@ import BusinessBenefits from "@/components/items/BusinessBenefits";
 export const metadata = {
   title: "Best Business Registration Services",
   description:
-    "Simplify your business registration process with Cowork Town's Virtual Office. Our efficient services help you establish or expand your venture seamlessly. Focus on growth while we handle the complexities of registration. Explore our tailored solutions today.",
+    "Simplify your business registration process with Virtualxcel's Virtual Office. Our efficient services help you establish or expand your venture seamlessly. Focus on growth while we handle the complexities of registration. Explore our tailored solutions today.",
   keywords:
     "business registration services, company registration, start a business, business setup, register a company, business incorporation, new business registration, online business registration, easy business registration, business registration process, business registration support, business registration experts, corporate registration, business registration solutions, professional business registration, virtual office for business registration, register your business today, business registration assistance, hassle-free business registration",
-  author: "Cowork Town",
+  author: "Virtualxcel",
 };
 
 function page() {

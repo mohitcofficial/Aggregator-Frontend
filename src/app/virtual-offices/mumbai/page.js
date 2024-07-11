@@ -26,11 +26,11 @@ function page() {
         <LocationContainer location={"Mumbai"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Mumbai!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's newest offering - Virtual Offices in
+            Welcome to Virtualxcel's newest offering - Virtual Offices in
             Mumbai! Establish a prestigious business address in the heart of the
             city without the expense of a physical office. Our virtual office
             services include professional mail handling, call forwarding, and
@@ -39,10 +39,10 @@ function page() {
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Mumbai without the overhead costs
             of a physical office. Discover the convenience, flexibility, and
-            professionalism of Cowork Town's virtual offices today!
+            professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

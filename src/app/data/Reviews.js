@@ -1,7 +1,7 @@
 export const reviews = [
   {
     name: "Shalini Jaiswal",
-    text: "My experience at Cowork Town has been fantastic! The facilities are top-notch, providing a productive environment for work. The modern workstations, high-speed internet, and meeting rooms have truly enhanced my productivity. The community events organized by the staff have been invaluable for networking. I highly recommend Cowork Town to anyone looking for a vibrant workspace.",
+    text: "My experience at Virtualxcel has been fantastic! The facilities are top-notch, providing a productive environment for work. The modern workstations, high-speed internet, and meeting rooms have truly enhanced my productivity. The community events organized by the staff have been invaluable for networking. I highly recommend Virtualxcel to anyone looking for a vibrant workspace.",
     initials: "SJ",
     rating: 4.5,
   },

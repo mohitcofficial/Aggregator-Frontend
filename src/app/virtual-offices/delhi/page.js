@@ -11,7 +11,7 @@ import classes from "./page.module.css";
 export const metadata = {
   title: "Cheap Virtual Office Space in Delhi for GST & Mailing Address",
   description:
-    "Get affordable virtual office space in Delhi with professional mailing addresses, company and GST registration from Cowork Town. Elevate your business!",
+    "Get affordable virtual office space in Delhi with professional mailing addresses, company and GST registration from Virtualxcel. Elevate your business!",
   robots: "max-image-preview:large",
   canonical: "https://coworktown.com/virtual-offices/delhi/",
 };
@@ -24,7 +24,7 @@ function page() {
         <LocationContainer location={"New Delhi"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Delhi!
           </p>
           <p className={classes.para}>
@@ -34,10 +34,10 @@ function page() {
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Delhi without the overhead costs
             of a physical office. Discover the convenience, flexibility, and
-            professionalism of Cowork Town's virtual offices today!
+            professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

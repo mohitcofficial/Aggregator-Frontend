@@ -26,11 +26,11 @@ function page() {
         <LocationContainer location={"Bangalore"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Bangalore!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's newest offering - Virtual Offices in
+            Welcome to Virtualxcel's newest offering - Virtual Offices in
             Bangalore! Obtain a prestigious business address without the need
             for a physical office. Our virtual office solutions feature mail
             handling, call forwarding, and meeting room access, ensuring a
@@ -39,10 +39,10 @@ function page() {
           </p>
           <p className={classes.para}>
             Join the thriving community of entrepreneurs, startups, and
-            professionals who trust Cowork Town for their virtual office needs.
+            professionals who trust Virtualxcel for their virtual office needs.
             Elevate your business presence in Bangalore without the overhead
             costs of a physical office. Discover the convenience, flexibility,
-            and professionalism of Cowork Town's virtual offices today!
+            and professionalism of Virtualxcel's virtual offices today!
           </p>
         </div>
         <div className={classes.imageContainer}>

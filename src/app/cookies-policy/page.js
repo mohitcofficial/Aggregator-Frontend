@@ -9,9 +9,9 @@ import Footer from "@/components/footer/Footer";
 export const metadata = {
   title: "Cookies Policy",
   keywords:
-    "Cowork Town, cookie policy, cookies usage, website cookies, cookies information, enhance experience, cookies management, coworking space website",
+    "Virtualxcel, cookie policy, cookies usage, website cookies, cookies information, enhance experience, cookies management, coworking space website",
   description:
-    "Learn about Cowork Town's cookies policy. Find out how we use cookies to enhance your experience on our coworking space website.",
+    "Learn about Virtualxcel's cookies policy. Find out how we use cookies to enhance your experience on our coworking space website.",
 };
 
 function page() {
@@ -40,7 +40,7 @@ function page() {
           <div className={` ${classes.outerBlock}`}>
             <div className={classes.block}>
               <h2 className={classes.heading2}>
-                Cookies Policy for Cowork Town
+                Cookies Policy for Virtualxcel
               </h2>
               <p className={classes.text}>
                 This Cookies Policy explains what Cookies are and how We use
@@ -97,7 +97,7 @@ function page() {
                 </li>
                 <li className={classes.text}>
                   <span className={classes.bold}>Website</span>
-                  refers to Cowork Town, accessible from
+                  refers to Virtualxcel, accessible from
                   <a
                     style={{ marginLeft: "4px" }}
                     className={classes.link}
@@ -271,22 +271,22 @@ function page() {
               <ul className={classes.points}>
                 <li className={classes.text}>
                   By email:
-                  <span className={classes.bold2}>info@coworktown.com</span>
+                  <span className={classes.bold2}>sales@virtualxcel.in</span>
                 </li>
                 <li className={classes.text}>
                   By visiting this page on our website:
                   <span className={classes.bold2}>
                     <a
                       className={`${classes.link} ${classes.link2}`}
-                      href="https://www.coworktown.com/contactus/"
+                      href="https://virtualxcel.in/contactus/"
                     >
-                      https://www.coworktown.com/contactus/
+                      https://virtualxcel.in/contactus/
                     </a>
                   </span>
                 </li>
                 <li className={classes.text}>
                   By phone number:
-                  <span className={classes.bold2}>+91 9871001076</span>
+                  <span className={classes.bold2}>+91 9871001079</span>
                 </li>
                 <li>
                   By mail:

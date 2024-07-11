@@ -61,7 +61,7 @@ function LPFooter() {
             <EmailIcon
               sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
             />
-            <p className={classes.text}>sales@coworktown.com</p>
+            <p className={classes.text}>sales@virtualxcel.in</p>
           </div>
           <div className={classes.option2}>
             <div className={classes.text2} style={{ alignItems: "center" }}>

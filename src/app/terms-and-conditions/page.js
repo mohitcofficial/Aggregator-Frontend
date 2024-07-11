@@ -6,12 +6,12 @@ import Image from "next/image";
 import PrivacyPolicyImage from "../../../public/images/PrivacyPolicy.jpeg";
 
 export const metadata = {
-  title: "Terms and Conditions | Cowork Town",
+  title: "Terms and Conditions | Virtualxcel",
   description:
-    "Read the terms and conditions of Cowork Town. Understand the guidelines and policies governing the use of our services and website.",
+    "Read the terms and conditions of Virtualxcel. Understand the guidelines and policies governing the use of our services and website.",
   keywords:
-    "terms and conditions, Cowork Town terms of service, legal agreements, business policies, user guidelines",
-  author: "Cowork Town",
+    "terms and conditions, Virtualxcel terms of service, legal agreements, business policies, user guidelines",
+  author: "Virtualxcel",
 };
 
 function page() {
@@ -40,7 +40,7 @@ function page() {
           <div className={` ${classes.outerBlock}`}>
             <div className={classes.block}>
               <h2 className={classes.heading2}>
-                Terms and Conditions for Cowork Town
+                Terms and Conditions for Virtualxcel
               </h2>
               <p className={classes.text}>
                 Please read these terms and conditions carefully before using
@@ -429,7 +429,7 @@ function page() {
               <ul className={classes.points}>
                 <li className={classes.text}>
                   By email:
-                  <span className={classes.bold2}>info@coworktown.com</span>
+                  <span className={classes.bold2}>sales@virtualxcel.in</span>
                 </li>
                 <li className={classes.text}>
                   By visiting this page on our website:

@@ -15,7 +15,7 @@ import classes from "./page.module.css";
 export const metadata = {
   title: "Coworking Spaces",
   description:
-    "Cowork Town offers a dynamic coworking environment where innovation thrives. Join our collaborative workspace and unlock new opportunities for growth and networking.",
+    "Virtualxcel offers a dynamic coworking environment where innovation thrives. Join our collaborative workspace and unlock new opportunities for growth and networking.",
 };
 
 function page() {
@@ -46,7 +46,7 @@ function page() {
           <Facilities data={coworkingFacilities} />
           <p className={classes.heading0}>
             Why Choose
-            <span> Cowork Town ?</span>
+            <span> Virtualxcel ?</span>
           </p>
           <WhyUs />
           <ContactUsPoster />

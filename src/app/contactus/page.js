@@ -12,7 +12,7 @@ import Footer from "@/components/footer/Footer";
 export const metadata = {
   title: "Connect With Us",
   description:
-    "Get in touch with Cowork Town today. Whether you have inquiries, feedback, or partnership proposals, our team is here to assist you. Reach out to us easily and start your journey towards a vibrant coworking experience.",
+    "Get in touch with Virtualxcel today. Whether you have inquiries, feedback, or partnership proposals, our team is here to assist you. Reach out to us easily and start your journey towards a vibrant coworking experience.",
 };
 
 function page() {
@@ -33,6 +33,7 @@ function page() {
               }
               heading={"Phone"}
               text={"+91 9871001079"}
+              buttonText={"Call"}
             />
             <ContactItem
               icon={
@@ -51,7 +52,8 @@ function page() {
                 />
               }
               heading={"Email"}
-              text={"sales@coworktown.com"}
+              text={"sales@virtualxcel.in"}
+              buttonText={"E-Mail"}
             />
           </div>
         </div>

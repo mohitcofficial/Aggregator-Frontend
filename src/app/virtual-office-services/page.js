@@ -18,7 +18,7 @@ import LPFooter from "@/components/lpItems/LPFooter";
 export const metadata = {
   title: "Best Virtual Offices & Business Addresses Across India",
   description:
-    "Discover Cowork Town: Your gateway to the perfect virtual office address. Elevate your professional presence and expand your business seamlessly.",
+    "Discover Virtualxcel: Your gateway to the perfect virtual office address. Elevate your professional presence and expand your business seamlessly.",
   keywords: [
     "Best Virtual Office Address for your Business",
     "Best Business Address registration plans accross india",

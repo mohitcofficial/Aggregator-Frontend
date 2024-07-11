@@ -41,7 +41,7 @@ function Banner2({ background }) {
               </span>
             </div>
             <div className={classes.subHeading}>
-              Cowork Town is your premier destination for complete virtual
+              Virtualxcel is your premier destination for complete virtual
               office solutions across India. We provide professional business
               addresses, streamlined mail handling, and convenient access to
               meeting rooms, empowering businesses with the flexibility and
@@ -64,7 +64,7 @@ function Banner2({ background }) {
               cabins. Join a vibrant community of innovators and entrepreneurs.
               Elevate your productivity with premium amenities and flexible
               terms. Unleash your potential in our collaborative ecosystem.
-              Discover opportunity at Cowork Town. Join us today!
+              Discover opportunity at Virtualxcel. Join us today!
             </div>
             <StickerContainer2 />
           </div>

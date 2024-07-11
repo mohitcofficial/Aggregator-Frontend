@@ -13,7 +13,7 @@ import LocationContainer from "@/components/delhi/LocationContainer";
 export const metadata = {
   title: "Virtual Office Space in Gurgaon for GST & Company Address",
   description:
-    "Secure premium virtual office space in Gurgaon with Cowork Town. Enjoy professional GST registration, company address, and mail handling at affordable rates.",
+    "Secure premium virtual office space in Gurgaon with Virtualxcel. Enjoy professional GST registration, company address, and mail handling at affordable rates.",
   robots: "max-image-preview:large",
   canonical: "https://www.coworktown.com/virtual-offices/gurgaon/",
 };
@@ -26,11 +26,11 @@ function page() {
         <LocationContainer location={"Gurgaon"} />
         <div className={classes.infoContainer}>
           <p className={classes.heading}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Gurgaon!
           </p>
           <p className={classes.para}>
-            Welcome to Cowork Town's newest addition to our range of services -
+            Welcome to Virtualxcel's newest addition to our range of services -
             Virtual Offices in Gurgaon!
           </p>
           <p className={classes.para}>
@@ -40,10 +40,10 @@ function page() {
             and access to meeting rooms, providing you with a professional image
             and seamless business operations. Join us and elevate your business
             presence today! Join the thriving community of entrepreneurs,
-            startups, and professionals who trust Cowork Town for their virtual
+            startups, and professionals who trust Virtualxcel for their virtual
             office needs. Elevate your business presence in Gurgaon without the
             overhead costs of a physical office. Discover the convenience,
-            flexibility, and professionalism of Cowork Town's virtual offices
+            flexibility, and professionalism of Virtualxcel's virtual offices
             today!
           </p>
         </div>

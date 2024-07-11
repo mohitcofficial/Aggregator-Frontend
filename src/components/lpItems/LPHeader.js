@@ -90,7 +90,7 @@ function LPHeader() {
                 fontSize: { xs: 16, sm: 18, md: 20, lg: 22 },
               }}
             />
-            sales@coworktown.com
+            sales@virtualxcel.in
           </li>
           <p style={{ color: "white", fontSize: "28px" }}>|</p>
           <li className={`${classes.listItem}`}>
