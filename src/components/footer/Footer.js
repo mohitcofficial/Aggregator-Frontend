@@ -9,6 +9,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import classes from "./Footer.module.css";
+import Image from "next/image";
+import TransparentLogo from "../../../public/images/TransparentLogo2.png";
 
 function Footer() {
   const handleMaintainance = () => {
@@ -26,7 +28,17 @@ function Footer() {
       <div className={classes.container1}>
         <div className={`${classes.box1} ${classes.box3}`}>
           <div className={classes.logo}>
-            <p className={`${classes.firstPart}`}>Virtualxcel</p>
+            <div className={classes.imageContainer}>
+              <Image
+                className={classes.image}
+                src={TransparentLogo}
+                alt="Image"
+                fill={true}
+                placeholder="blur"
+                priority={true}
+                quality={true}
+              />
+            </div>
           </div>
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
           <div className={classes.handlesLink}>

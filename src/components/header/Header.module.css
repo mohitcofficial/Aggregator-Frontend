@@ -77,7 +77,6 @@
 
 .listItem {
   margin: 0 24px;
-  padding: 4px 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,6 +84,10 @@
   cursor: pointer;
   font-size: 17px;
   color: white;
+}
+
+.aTag {
+  padding: 4px 8px;
 }
 
 .listItemwithDropdown {
@@ -350,7 +353,11 @@
     margin: 0 12px;
   }
   .logo {
-    margin: 0 20px;
+    margin: 0;
+  }
+
+  .imageContainer {
+    width: 200px;
   }
 
   .phoneContainer {

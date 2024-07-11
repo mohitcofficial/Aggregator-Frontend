@@ -106,7 +106,14 @@ function Header({ dark = false }) {
             className={`${classes.listItem}
               ${activeNavItem === "home" ? classes.active : ""}`}
           >
-            <Link style={{ textDecoration: "none", color: "inherit" }} href="/">
+            <Link
+              className={classes.aTag}
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+              }}
+              href="/"
+            >
               Home
             </Link>
           </li>
@@ -122,6 +129,7 @@ function Header({ dark = false }) {
             onMouseLeave={() => setDropDownActive(false)}
           >
             <Link
+              className={classes.aTag}
               style={{ textDecoration: "none", color: "inherit" }}
               href="/virtual-offices"
             >
@@ -196,6 +204,7 @@ function Header({ dark = false }) {
             }}
           >
             <Link
+              className={classes.aTag}
               style={{ textDecoration: "none", color: "inherit" }}
               href="/coworking-spaces"
             >
@@ -211,6 +220,7 @@ function Header({ dark = false }) {
             }`}
           >
             <Link
+              className={classes.aTag}
               style={{ textDecoration: "none", color: "inherit" }}
               href="/partnership"
             >
@@ -226,6 +236,7 @@ function Header({ dark = false }) {
             }`}
           >
             <Link
+              className={classes.aTag}
               style={{ textDecoration: "none", color: "inherit" }}
               href="/contactus"
             >
