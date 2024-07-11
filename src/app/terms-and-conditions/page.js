@@ -121,9 +121,9 @@ function page() {
                   <a
                     style={{ marginLeft: "4px" }}
                     className={classes.link}
-                    href="https://www.coworktown.com/"
+                    href="https://virtualxcel.in/"
                   >
-                    https://www.coworktown.com/
+                    https://virtualxcel.in/
                   </a>
                 </li>
                 <li className={classes.text}>
@@ -436,9 +436,9 @@ function page() {
                   <span className={classes.bold2}>
                     <a
                       className={`${classes.link} ${classes.link2}`}
-                      href="https://www.coworktown.com/contactus/"
+                      href="https://virtualxcel.in/contactus/"
                     >
-                      https://www.coworktown.com/contactus/
+                      https://virtualxcel.in/contactus/
                     </a>
                   </span>
                 </li>

@@ -29,7 +29,7 @@ function LPContactForm() {
 
   const sendMail = async (mailBody) => {
     const body = {
-      to: "sales@coworktown.com",
+      to: "sales@virtualxcel.in",
       subject: "Enquiry-Landing Page",
       text: mailBody,
     };

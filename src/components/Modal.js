@@ -48,7 +48,7 @@ export default function CustomModal({ children }) {
 
   const sendMail = async (mailBody) => {
     const body = {
-      to: "testing@coworktown.com",
+      to: "testing@virtualxcel.in",
       subject: "Enquiry-Landing Page",
       text: mailBody,
     };

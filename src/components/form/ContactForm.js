@@ -26,7 +26,7 @@ function ContactForm() {
 
   const sendMail = async (mailBody) => {
     const body = {
-      to: "sales@coworktown.com",
+      to: "sales@virtualxcel.in",
       subject: "Enqiry",
       text: mailBody,
     };

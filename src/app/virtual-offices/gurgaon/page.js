@@ -15,7 +15,7 @@ export const metadata = {
   description:
     "Secure premium virtual office space in Gurgaon with Virtualxcel. Enjoy professional GST registration, company address, and mail handling at affordable rates.",
   robots: "max-image-preview:large",
-  canonical: "https://www.coworktown.com/virtual-offices/gurgaon/",
+  canonical: "https://virtualxcel.in/virtual-offices/gurgaon/",
 };
 function page() {
   return (

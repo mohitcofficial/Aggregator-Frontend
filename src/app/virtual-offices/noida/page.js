@@ -15,7 +15,7 @@ export const metadata = {
   description:
     "Virtualxcel offers affordable virtual office space in Noida where you get professional GST registration & company address and meeting rooms.",
   robots: "max-image-preview:large",
-  canonical: "https://www.coworktown.com/virtual-offices/noida/",
+  canonical: "https://virtualxcel.in/virtual-offices/noida/",
 };
 
 function page() {

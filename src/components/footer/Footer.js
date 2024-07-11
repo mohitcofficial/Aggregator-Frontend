@@ -1,19 +1,16 @@
 "use client";
-import classes from "./Footer.module.css";
-import React from "react";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { useRouter } from "next/navigation";
-import toast from "react-hot-toast";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Link from "next/link";
+import toast from "react-hot-toast";
+import classes from "./Footer.module.css";
 
 function Footer() {
-  const router = useRouter();
   const handleMaintainance = () => {
     toast("Section Under Maintainance!", {
       icon: "⚠️",
@@ -119,7 +116,9 @@ function Footer() {
                 Home
               </Link>
             </p>
-            <p className={classes.links}>About Us</p>
+            <p onClick={handleMaintainance} className={classes.links}>
+              About Us
+            </p>
             <p className={classes.links}>
               <Link
                 style={{ textDecoration: "none", color: "inherit" }}

@@ -27,7 +27,7 @@ function ContactForm3() {
 
   const sendMail = async (mailBody) => {
     const body = {
-      to: "sales@coworktown.com",
+      to: "sales@virtualxcel.in",
       subject: "Enquiry",
       text: mailBody,
     };

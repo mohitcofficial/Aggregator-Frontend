@@ -13,7 +13,7 @@ export const metadata = {
   description:
     "Get affordable virtual office space in Delhi with professional mailing addresses, company and GST registration from Virtualxcel. Elevate your business!",
   robots: "max-image-preview:large",
-  canonical: "https://coworktown.com/virtual-offices/delhi/",
+  canonical: "https://virtualxcel.in/virtual-offices/delhi/",
 };
 function page() {
   return (

@@ -36,13 +36,7 @@ function LPFooter() {
           <CustomModal>
             <div className={classes.handlesLink}>
               <FacebookIcon className={classes.icon} sx={{ fontSize: 22 }} />
-              <InstagramIcon
-                // onClick={handleInternalClick(
-                //   "https://www.instagram.com/coworktownindia/?next=%2F"
-                // )}
-                className={classes.icon}
-                sx={{ fontSize: 22 }}
-              />
+              <InstagramIcon className={classes.icon} sx={{ fontSize: 22 }} />
               <LinkedInIcon className={classes.icon} sx={{ fontSize: 22 }} />
               <TwitterIcon className={classes.icon} sx={{ fontSize: 22 }} />
             </div>
