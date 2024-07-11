@@ -28,7 +28,7 @@ function Banner6() {
             </span>
           </div>
           <div className={classes.subHeading}>
-            Set up a virtual office with CoworkTown at prime locations across
+            Set up a virtual office with Virtualxcel at prime locations across
             Pan India. Enjoy premium services, including professional addresses,
             mail handling, and meeting rooms, all without the costs of a
             physical office.

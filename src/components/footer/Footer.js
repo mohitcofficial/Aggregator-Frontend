@@ -29,8 +29,7 @@ function Footer() {
       <div className={classes.container1}>
         <div className={`${classes.box1} ${classes.box3}`}>
           <div className={classes.logo}>
-            <p className={`${classes.firstPart}`}>COWORK</p>
-            <p className={classes.secondPart}>TOWN</p>
+            <p className={`${classes.firstPart}`}>Virtualxcel</p>
           </div>
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
           <div className={classes.handlesLink}>
@@ -212,11 +211,9 @@ function Footer() {
       </div>
       <div className={classes.container2}>
         <div className={classes.bottomLeft}>
-          Copyright © 2024, Cowork Town. All Rights Reserved
+          Copyright © 2024, Virtualxcel. All Rights Reserved
         </div>
-        <div className={classes.bottomRight}>
-          CoworkTown by Virtualxcel Solutions Pvt Ltd
-        </div>
+        <div className={classes.bottomRight}>Virtualxcel Solutions Pvt Ltd</div>
       </div>
     </div>
   );

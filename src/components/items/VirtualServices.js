@@ -27,7 +27,7 @@ function VirtualServices() {
         </div>
         <div className={classes.content}>
           <p className={classes.heading}>
-            Explore the Full Range of Cowork Town Virtual Office Services
+            Explore the Full Range of Virtualxcel Virtual Office Services
           </p>
           <p className={classes.subHeading}>
             Get access to cost-effective vitual office to take your business to
@@ -37,7 +37,7 @@ function VirtualServices() {
             <div className={classes.card}>
               <BusinessIcon sx={{ color: "#930E6B" }} />
               <p className={classes.text}>
-                Choose from Cowork Town premium selection of business addresses
+                Choose from Virtualxcel premium selection of business addresses
                 across India.
               </p>
             </div>

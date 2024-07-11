@@ -10,7 +10,7 @@ function LPGuarantee() {
     <div className={classes.container}>
       <div className={classes.container2}>
         <p className={classes.heading}>
-          Why Cowork Town is Your Trusted Virtual Office Provider?
+          Why Virtualxcel is Your Trusted Virtual Office Provider?
         </p>
         <p className={classes.subHeading}>
           Let our workspace solution experts simplify your office search. With

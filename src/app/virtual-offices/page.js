@@ -20,7 +20,7 @@ import classes from "./page.module.css";
 export const metadata = {
   title: "Virtual Offices & Business Addresses Across India",
   description:
-    "Discover the flexibility of our virtual offices at Cowork Town. Gain a prestigious business address, professional support, and remote services tailored to your needs. Elevate your business presence today.",
+    "Discover the flexibility of our virtual offices at Virtualxcel. Gain a prestigious business address, professional support, and remote services tailored to your needs. Elevate your business presence today.",
   keywords: [
     "virtual office space in delhi",
     "cheap virtual office space in delhi",

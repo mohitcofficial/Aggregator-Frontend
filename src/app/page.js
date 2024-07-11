@@ -19,7 +19,7 @@ export const metadata = {
   keywords:
     "Best Coworking Offices, Coworking Spaces, Virtual Offices, Cheap Coworking Spaces, Cheapest Coworking Space, Coworking Spaces near me",
   description:
-    "Discover the ultimate coworking experience at Cowork Town. Join a vibrant community of professionals in a modern workspace designed for collaboration, productivity, and success. Explore our flexible membership options and amenities today.",
+    "Discover the ultimate coworking experience at Virtualxcel. Join a vibrant community of professionals in a modern workspace designed for collaboration, productivity, and success. Explore our flexible membership options and amenities today.",
 };
 
 export default function Home() {
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className={classes.content}>
               <p className={classes.text}>
-                Welcome to Unity Cowork Explore the dynamic synergy between
+                Welcome to Virtualxcel Explore the dynamic synergy between
                 coworking spaces and virtual offices—a game-changing combination
                 designed to amplify productivity, foster collaboration, and
                 transcend boundaries.

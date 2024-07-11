@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://coworktown.com/sitemap.xml",
+    sitemap: "https://virtualxcel.in//sitemap.xml",
   };
 }
