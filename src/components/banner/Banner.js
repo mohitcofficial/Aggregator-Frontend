@@ -382,6 +382,7 @@ function Banner() {
             </div>
           </div>
           {/* <StickerContainer /> */}
+          <button>View All Locations</button>
         </div>
       </div>
     </div>

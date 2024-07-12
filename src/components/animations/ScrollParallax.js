@@ -2,11 +2,11 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import classes from "./ScrollParallax.module.css";
-import Business1 from "../../../public/images/Business1.jpg";
-import Business2 from "../../../public/images/Business2.jpg";
-import Business3 from "../../../public/images/Business3.jpg";
-import Business4 from "../../../public/images/Business4.jpg";
-import Business5 from "../../../public/images/Business5.jpg";
+import Business1 from "../../../public/images/parallax2/Business1.jpg";
+import Business2 from "../../../public/images/parallax2/Business2.jpg";
+import Business3 from "../../../public/images/parallax2/Business3.jpg";
+import Business4 from "../../../public/images/parallax2/Business4.jpg";
+import Business5 from "../../../public/images/parallax2/Business5.jpg";
 import Image from "next/image";
 
 function ScrollParallax() {

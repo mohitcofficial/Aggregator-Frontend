@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./PremiumLocations.module.css";
-import HaryanaImage from "../../../public/images/Gurgaon/Gurgaon.jpg";
+import HaryanaImage from "../../../public/images/Gurgaon/Gurgaon2.jpg";
 import MaharashtraImage from "../../../public/images/Mumbai/Mumbai.jpg";
 import BangaloreImage from "../../../public/images/Bangalore/Bangalore.jpeg";
 import KeralaImage from "../../../public/images/Kerala/Kerala2.jpeg";

@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./Banner4.module.css";
 import DelhiImage from "../../../public/images/Delhi.jpg";
 import GurgaonImage from "../../../public/images/Gurgaon/Gurgaon.jpg";
-import GurgaonImage2 from "../../../public/images/Gurgaon/Gurgaon.png";
 import NoidaImage from "../../../public/images/Noida/Noida.jpg";
 import MumbaiImage from "../../../public/images/Mumbai/Mumbai.jpg";
 import HyderabadImage from "../../../public/images/Hyderabad/Hyderabad.jpg";
@@ -21,7 +20,7 @@ import Link from "next/link";
 function Banner4({ place = "Delhi" }) {
   const placeMap = {
     Delhi: DelhiImage,
-    Gurgaon: GurgaonImage2,
+    Gurgaon: GurgaonImage,
     Noida: NoidaImage,
     Bangalore: DelhiImage,
     Mumbai: MumbaiImage,

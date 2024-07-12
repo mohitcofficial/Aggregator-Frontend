@@ -1,7 +1,4 @@
-import React from "react";
 import classes from "./Facilities.module.css";
-import Image from "next/image";
-import BackgroundImage from "../../../public/images/Background5.png";
 
 function Facilities({ data }) {
   return (
