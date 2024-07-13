@@ -11,6 +11,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import CustomModal from "../Modal";
+import Image from "next/image";
+import TransparentLogo from "../../../public/images/TransparentLogo2.png";
 
 function LPFooter() {
   const router = useRouter();
@@ -29,8 +31,17 @@ function LPFooter() {
       <div className={classes.container1}>
         <div className={`${classes.box1} ${classes.box3}`}>
           <div className={classes.logo}>
-            <p className={`${classes.firstPart}`}>COWORK</p>
-            <p className={classes.secondPart}>TOWN</p>
+            <div className={classes.imageContainer}>
+              <Image
+                className={classes.image}
+                src={TransparentLogo}
+                alt="Image"
+                fill={true}
+                placeholder="blur"
+                priority={true}
+                quality={true}
+              />
+            </div>
           </div>
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
           <CustomModal>

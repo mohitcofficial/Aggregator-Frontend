@@ -7,7 +7,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useRouter, usePathname } from "next/navigation";
 import { useEffect } from "react";
 import Image from "next/image";
-import TransparentLogo from "../../../public/images/TransparentLogo.png";
+import TransparentLogo from "../../../public/images/TransparentLogo4.png";
 import Link from "next/link";
 
 function Header({ dark = false }) {

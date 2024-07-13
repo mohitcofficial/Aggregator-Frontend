@@ -23,7 +23,7 @@ export default function LocationsModal({ children }) {
     setOpen(false);
   };
 
-  const fontSize = { xs: 14, sm: 15, md: 30, lg: 32 };
+  const fontSize = { xs: 26, sm: 28, md: 30, lg: 32 };
 
   return (
     <div>
