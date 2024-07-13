@@ -4,6 +4,7 @@ import classes from "./page.module.css";
 import ContactViaSticker from "@/components/items/ContactViaSticker";
 import Image from "next/image";
 import PrivacyPolicyImage from "../../../public/images/PrivacyPolicy.jpeg";
+import { WebsiteURLs } from "../data/Links";
 
 export const metadata = {
   title: "Terms and Conditions | Virtualxcel",
@@ -121,9 +122,9 @@ function page() {
                   <a
                     style={{ marginLeft: "4px" }}
                     className={classes.link}
-                    href="https://virtualxcel.in/"
+                    href={WebsiteURLs.home}
                   >
-                    https://virtualxcel.in/
+                    {WebsiteURLs.home}{" "}
                   </a>
                 </li>
                 <li className={classes.text}>
@@ -436,9 +437,9 @@ function page() {
                   <span className={classes.bold2}>
                     <a
                       className={`${classes.link} ${classes.link2}`}
-                      href="https://virtualxcel.in/contactus/"
+                      href={WebsiteURLs.contactus}
                     >
-                      https://virtualxcel.in/contactus/
+                      {WebsiteURLs.contactus}
                     </a>
                   </span>
                 </li>

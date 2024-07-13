@@ -7,7 +7,7 @@ function GetHelpButton() {
   return (
     <Link
       style={{ textDecoration: "none", color: "inherit" }}
-      href="/contactus"
+      href="/contact-us"
     >
       <div className={classes.button}>
         Get Help

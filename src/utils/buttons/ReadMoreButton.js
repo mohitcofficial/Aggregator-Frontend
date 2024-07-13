@@ -8,7 +8,7 @@ function ReadMoreButton() {
   const router = useRouter();
   return (
     <div
-      onClick={() => router.push("/contactus")}
+      onClick={() => router.push("/contact-us")}
       className={classes.readMoreButton}
     >
       Read More

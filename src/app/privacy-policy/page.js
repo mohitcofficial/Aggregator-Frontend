@@ -5,6 +5,7 @@ import PrivacyPolicyImage from "../../../public/images/PrivacyPolicy.jpeg";
 import Image from "next/image";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import { WebsiteURLs } from "../data/Links";
 
 export const metadata = {
   title: "Privacy Policy",
@@ -139,9 +140,9 @@ function page() {
                   <a
                     style={{ marginLeft: "4px" }}
                     className={classes.link}
-                    href="https://virtualxcel.in/"
+                    href={WebsiteURLs.home}
                   >
-                    https://virtualxcel.in/
+                    {WebsiteURLs.home}
                   </a>
                 </li>
                 <li className={classes.text}>
@@ -668,9 +669,9 @@ function page() {
                   <span className={classes.bold2}>
                     <a
                       className={`${classes.link} ${classes.link2}`}
-                      href="https://virtualxcel.in/contactus/"
+                      href={WebsiteURLs.contactus}
                     >
-                      https://virtualxcel.in/contactus/
+                      {WebsiteURLs.contactus}
                     </a>
                   </span>
                 </li>

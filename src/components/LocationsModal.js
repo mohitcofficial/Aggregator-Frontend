@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import Modal from "@mui/material/Modal";
 import React from "react";
 import classes from "./LocationsModal.module.css";
+import CloseIcon from "@mui/icons-material/Close";
 
 const style = {
   position: "absolute",
@@ -15,14 +16,17 @@ const style = {
   p: 4,
 };
 
-export default function CustomModal({ children }) {
+export default function LocationsModal({ children }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
+  const handleClose = () => {
+    setOpen(false);
+  };
 
-  const fontSize = { xs: 14, sm: 15, md: 16, lg: 16 };
+  const fontSize = { xs: 14, sm: 15, md: 30, lg: 32 };
 
   return (
-    <div style={{ width: "100%" }}>
+    <div>
       <div onClick={handleOpen}>{children}</div>
       <Modal
         open={open}
@@ -39,7 +43,58 @@ export default function CustomModal({ children }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style} className={classes.modalInnerContainer}>
-          Hi
+          <div className={classes.buttonContainer}>
+            <CloseIcon
+              sx={{ fontSize: fontSize }}
+              className={classes.closeButton}
+              onClick={handleClose}
+            />
+          </div>
+          <h2 className={classes.heading}>Premium Locations</h2>
+          <div className={classes.content}>
+            <a className={classes.button} href="/virtual-offices/delhi">
+              Delhi
+            </a>
+            <a className={classes.button} href="/virtual-offices/gurgaon">
+              Gurgaon
+            </a>
+            <a className={classes.button} href="/virtual-offices/noida">
+              Noida
+            </a>
+            <a className={classes.button} href="/virtual-offices/bangalore">
+              Bangalore
+            </a>
+            <a className={classes.button} href="/virtual-offices/mumbai">
+              Mumbai
+            </a>
+            <a className={classes.button} href="/virtual-offices/chandigarh">
+              Chandigarh
+            </a>
+            <a className={classes.button} href="/virtual-offices/chennai">
+              Chennai
+            </a>
+          </div>
+          <h2 className={classes.heading}>Other Locations</h2>
+          <div className={classes.content}>
+            <a className={classes.button2} href="/virtual-offices/hyderabad">
+              Hyderabad
+            </a>
+            <a className={classes.button2} href="/virtual-offices/kolkata">
+              Kolkata
+            </a>
+            <a className={classes.button2} href="/virtual-offices/pune">
+              Pune
+            </a>
+            <a className={classes.button2} href="/virtual-offices/kochi">
+              Kochi
+            </a>
+            <a className={classes.button2} href="/virtual-offices/kerela">
+              Kerela
+            </a>
+            <a className={classes.button2} href="/virtual-offices/punjab">
+              Punjab
+            </a>
+          </div>
         </Box>
       </Modal>
     </div>

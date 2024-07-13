@@ -30,7 +30,7 @@ function Header({ dark = false }) {
       setActiveNavItem("coworking-spaces");
     } else if (lastElement === "partnership") {
       setActiveNavItem("partnership");
-    } else if (lastElement == "contactus") {
+    } else if (lastElement == "contact-us") {
       setActiveNavItem("contact");
     } else if (lastElement == "business-registration") {
       setActiveNavItem("business-registration");
@@ -238,7 +238,7 @@ function Header({ dark = false }) {
             <Link
               className={classes.aTag}
               style={{ textDecoration: "none", color: "inherit" }}
-              href="/contactus"
+              href="/contact-us"
             >
               Contact Us
             </Link>
@@ -366,7 +366,7 @@ function Header({ dark = false }) {
           onClick={() => {
             setActiveNavItem("contact");
             setHamMenuOpen(false);
-            router.push("/contactus");
+            router.push("/contact-us");
           }}
           className={`${classes.mobileListItem} ${
             activeNavItem === "contact" ? classes.active : ""

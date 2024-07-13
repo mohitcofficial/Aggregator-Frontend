@@ -128,13 +128,18 @@ function Footer() {
                 Home
               </Link>
             </p>
-            <p onClick={handleMaintainance} className={classes.links}>
-              About Us
+            <p className={classes.links}>
+              <Link
+                style={{ textDecoration: "none", color: "inherit" }}
+                href="/about-us"
+              >
+                About Us
+              </Link>
             </p>
             <p className={classes.links}>
               <Link
                 style={{ textDecoration: "none", color: "inherit" }}
-                href="/contactus"
+                href="/contact-us"
               >
                 Contact Us
               </Link>
@@ -147,8 +152,13 @@ function Footer() {
                 Partner With Us
               </Link>
             </p>
-            <p onClick={handleMaintainance} className={classes.links}>
-              Blog
+            <p className={classes.links}>
+              <Link
+                style={{ textDecoration: "none", color: "inherit" }}
+                href="https://blog.virtualxcel.in/"
+              >
+                Blog
+              </Link>
             </p>
           </div>
         </div>

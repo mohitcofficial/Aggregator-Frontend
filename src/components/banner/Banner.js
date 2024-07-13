@@ -1,18 +1,14 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import classes from "./Banner.module.css";
-import Typewriter from "typewriter-effect";
 import SearchIcon from "@mui/icons-material/Search";
-// import { toast } from "react-toastify";
+import { useEffect, useState } from "react";
+import Typewriter from "typewriter-effect";
+import classes from "./Banner.module.css";
 import toast from "react-hot-toast";
-
 import Image from "next/image";
-// import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-// import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import Background1 from "../../../public/images/Background1.jpg";
-import { useRouter } from "next/navigation";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import StickerContainer from "../items/StickerContainer";
+import { useRouter } from "next/navigation";
+import Background1 from "../../../public/images/Background1.jpg";
+import LocationsModal from "../LocationsModal";
 
 const values1 = [
   "Virtual Offices",
@@ -381,8 +377,11 @@ function Banner() {
               />
             </div>
           </div>
-          {/* <StickerContainer /> */}
-          <button>View All Locations</button>
+          <LocationsModal>
+            <button className={classes.viewLocationsButton}>
+              View All Locations
+            </button>
+          </LocationsModal>
         </div>
       </div>
     </div>

@@ -1,44 +1,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://http://virtualxcel.in</loc>
+    <loc>https://virtualxcel.in</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/virtual-offices</loc>
+    <loc>https://virtualxcel.in/virtual-offices</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/coworking-spaces</loc>
+    <loc>https://virtualxcel.in/coworking-spaces</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/contactus</loc>
+    <loc>https://virtualxcel.in/contact-us</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/partnership</loc>
+    <loc>https://virtualxcel.in/partnership</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/virtual-offices/delhi</loc>
+    <loc>https://virtualxcel.in/virtual-offices/delhi</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://http://virtualxcel.in/business-registration</loc>
+    <loc>https://virtualxcel.in/virtual-offices/gurgaon</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/noida</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/bangalore</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/hyderabad</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/mumbai</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/kolkata</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/pune</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/kochi</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/chennai</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/virtual-offices/goa</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/business-registration</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/gst-registration</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/mailing-address</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/about-us</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.52</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/privacy-policy</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/refund-policy</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/cookies-policy</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://virtualxcel.in/terms-and-conditions</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+  <loc>https://blog.virtualxcel.in/</loc>
+    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
   </url>
 </urlset>
