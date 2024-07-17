@@ -33,6 +33,21 @@
   color: #757575;
 }
 
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(231, 231, 231);
+  margin: 10px 0 2px 0;
+  width: 85%;
+  max-width: 85%;
+}
+
+.text2 {
+  font-size: 13px;
+  color: #979797;
+  margin-left: 8px;
+  letter-spacing: 1px;
+}
 .errorMessage {
   width: 80%;
   color: red;

@@ -36,11 +36,10 @@ function LPContactForm() {
     setLoading(true);
     try {
       const resp = await UserApis.sendMail(body);
-      // console.log(resp);
       if (typeof window !== "undefined" && window.gtag) {
         window.gtag("event", "submit", {
           event_category: "form",
-          event_label: "Contact Form",
+          event_label: "Landing Page Contact Form",
           event_action: "submit",
         });
       }
@@ -112,7 +111,7 @@ function LPContactForm() {
   const formValidation = () => {
     const errors = {};
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    const phoneRegex = /^[0-9]{10}$/;
+    const phoneRegex = /^[0-9]{10,11}$/;
     if (formState.user_name.trim() === "") {
       errors.user_name = "Username is Required! ";
     }
@@ -127,7 +126,7 @@ function LPContactForm() {
     }
     if (!phoneRegex.test(formState.user_mobile)) {
       errors.user_mobile =
-        "Phone Number must be 10 digits long and contain only numbers! ";
+        "Phone Number must be 10 or 11 digits long and contain only numbers! ";
     }
     if (formState.user_mobile.trim() === "") {
       errors.user_mobile = "Phone Number is Required! ";
@@ -177,14 +176,17 @@ function LPContactForm() {
 
       <p className={classes.errorMessage}>{formErrors.user_email}</p>
 
-      <input
-        placeholder="Phone Number"
-        className={classes.input}
-        type="text"
-        onChange={inputChangeHandler}
-        name="user_mobile"
-        value={formState.user_mobile}
-      />
+      <div className={classes.inputContainer}>
+        <p className={classes.text2}>+91</p>
+        <input
+          placeholder="Phone Number"
+          className={classes.input2}
+          type="text"
+          onChange={inputChangeHandler}
+          name="user_mobile"
+          value={formState.user_mobile}
+        />
+      </div>
 
       <p className={classes.errorMessage}>{formErrors.user_mobile}</p>
 

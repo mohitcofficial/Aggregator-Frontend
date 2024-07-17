@@ -407,4 +407,8 @@
     font-size: 14px;
     font-weight: 500;
   }
+  .viewLocationsButton {
+    font-size: 13px;
+    padding: 12px 22px;
+  }
 }

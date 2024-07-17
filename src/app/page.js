@@ -98,27 +98,28 @@ export default function Home() {
         </p>
         <div className={classes.blogContainer}>
           <BlogCard
+            index={1}
             heading={
-              "Choosing the Right Virtual Office Provider for Hassle-Free GST Registration"
+              "The Rise of Co-Working Spaces in the Modern Business Landscape"
             }
             content={
-              "In today’s rapidly evolving business landscape, entrepreneurs are increasingly turning to virtual offices to establish a psodnfsid fsod fnsdo fisnd fosd"
+              "In recent years, co-working spaces have revolutionized the traditional office environment, offering flexible and cost-effective solutions for startups, freelancers, and established businesses alike. These dynamic workspaces foster collaboration, innovation, and networking opportunities, making them an ideal choice for professionals seeking a vibrant community. With amenities like high-speed internet, meeting rooms, and recreational areas, co-working spaces provide a productive and engaging atmosphere that adapts to the evolving needs of today's workforce."
             }
           />
           <BlogCard
-            heading={
-              "Choosing the Right Virtual Office Provider for Hassle-Free GST Registration"
-            }
+            index={2}
+            heading={"The Benefits of Virtual Offices for Remote Businesses"}
             content={
-              "In today’s rapidly evolving business landscape, entrepreneurs are increasingly turning to virtual offices to establish a psodnfsid fsod fnsdo fisnd fosd"
+              "Virtual offices have emerged as a game-changer for remote businesses, providing a professional address and essential services without the need for a physical presence. This setup allows entrepreneurs and small businesses to establish credibility and expand their reach while keeping overhead costs low. "
             }
           />
           <BlogCard
+            index={3}
             heading={
-              "Choosing the Right Virtual Office Provider for Hassle-Free GST Registration"
+              "Simplifying Business and GST Registration for Entrepreneurs"
             }
             content={
-              "In today’s rapidly evolving business landscape, entrepreneurs are increasingly turning to virtual offices to establish a psodnfsid fsod fnsdo fisnd fosd"
+              "Navigating the complexities of business and GST registration can be a daunting task for entrepreneurs. Our platform simplifies this process by providing comprehensive support and guidance, ensuring that your business complies with all legal requirements. "
             }
           />
         </div>

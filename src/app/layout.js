@@ -33,38 +33,34 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
         {/* Google Tag Manager */}
         <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-Q4CT4BWRJJ"
-          id="my-script1"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-Q4CT4BWRJJ`}
         />
-        <Script id="google-analytics">
+        <Script id="google-analytics-1" strategy="afterInteractive">
           {`
-             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-            gtag('config', 'G-Q4CT4BWRJJ');
-
-          `}
+          gtag('config', 'G-Q4CT4BWRJJ');
+        `}
         </Script>
         <Script
-          id="my-script2"
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16609409855"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-16609409855`}
         />
-        <Script id="google-analytics">
+        <Script id="google-analytics-2" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-            gtag('config', 'AW-16609409855');
-
-          `}
+          gtag('config', 'AW-16609409855');
+        `}
         </Script>
       </head>
       <body
@@ -73,7 +69,6 @@ export default function RootLayout({ children }) {
       >
         {/* <Script src="//js-na1.hs-scripts.com/45211481.js" /> */}
         {<TawkToChat />}
-        <Script src="https://smtpjs.com/v3/smtp.js" async />
         <Toaster position="bottom-center" reverseOrder={false} />
         {children}
       </body>

@@ -79,7 +79,7 @@ function TransparentForm() {
   const formValidation = () => {
     const errors = {};
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    const phoneRegex = /^[0-9]{10}$/;
+    const phoneRegex = /^[0-9]{10,11}$/;
     if (formState.user_name.trim() === "") {
       errors.user_name = "Username is Required! ";
     }
@@ -94,7 +94,7 @@ function TransparentForm() {
     }
     if (!phoneRegex.test(formState.user_mobile)) {
       errors.user_mobile =
-        "Phone Number must be 10 digits long and contain only numbers! ";
+        "Phone Number must be 10 or 11 digits long and contain only numbers! ";
     }
     if (formState.user_mobile.trim() === "") {
       errors.user_mobile = "Phone Number is Required! ";
