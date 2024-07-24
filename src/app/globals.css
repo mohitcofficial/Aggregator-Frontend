@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #001233;
+  --primary-color: #191c20;
   --primary-color-light: #002d5a;
   --secondary-color: #ff595a;
   --accent-color: #ff851b;
   --text-color: #333333;
   --background-color: #f2f2f2;
-  --highlight-color: #f4e4cd;
+  --highlight-color: #f3ece3;
   --active-highlight-color: #ff595a;
+  --hover-highlight-color: #ff595a;
 }
 
 * {

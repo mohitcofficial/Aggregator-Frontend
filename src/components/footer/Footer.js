@@ -44,29 +44,27 @@ function Footer() {
           <div className={classes.handlesLink}>
             <FacebookIcon
               onClick={handleInternalClick(
-                "https://www.facebook.com/coworktown"
+                "https://www.facebook.com/profile.php?id=61562676830223"
               )}
               className={classes.icon}
               sx={{ fontSize: 22 }}
             />
             <InstagramIcon
               onClick={handleInternalClick(
-                "https://www.instagram.com/coworktownindia/?next=%2F"
+                "https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
               )}
               className={classes.icon}
               sx={{ fontSize: 22 }}
             />
             <LinkedInIcon
               onClick={handleInternalClick(
-                "https://linkedin.com/company/coworktownindia"
+                "https://www.linkedin.com/company/virtualxcel-solutions"
               )}
               className={classes.icon}
               sx={{ fontSize: 22 }}
             />
             <TwitterIcon
-              onClick={handleInternalClick(
-                "https://twitter.com/coworktownindia"
-              )}
+              onClick={handleInternalClick("https://x.com/virtualxcel")}
               className={classes.icon}
               sx={{ fontSize: 22 }}
             />

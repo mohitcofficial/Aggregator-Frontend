@@ -18,22 +18,26 @@ function ContactViaSticker() {
       <FacebookIcon
         className={classes.icon}
         sx={{ fontSize: fontSize, color: "#1877F2" }}
-        onClick={handleClick("https://www.facebook.com/coworktown")}
+        onClick={handleClick(
+          "https://www.facebook.com/profile.php?id=61562676830223"
+        )}
       />
       <InstagramIcon
         className={classes.icon}
         sx={{ fontSize: fontSize, color: "#d62976" }}
         onClick={handleClick(
-          "https://www.instagram.com/coworktownindia/?next=%2F"
+          "https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
         )}
       />
       <LinkedInIcon
-        onClick={handleClick("https://linkedin.com/company/coworktownindia")}
+        onClick={handleClick(
+          "https://www.linkedin.com/company/virtualxcel-solutions"
+        )}
         className={classes.icon}
         sx={{ fontSize: fontSize, color: "#0072b1 " }}
       />
       <TwitterIcon
-        onClick={handleClick("https://twitter.com/coworktownindia")}
+        onClick={handleClick("https://x.com/virtualxcel")}
         className={classes.icon}
         sx={{ fontSize: fontSize, color: "#00acee" }}
       />
