@@ -26,6 +26,24 @@ const data = [
       "Optimize Your Operations with Virtualxcel's Virtual Office Solutions. Gain a prestigious business address and reliable mail handling services tailored to meet your business needs.",
     image: Background2,
   },
+  {
+    heading: "Experience Flexibility with Our Day Passes",
+    subHeading:
+      "Enjoy a productive day at VirtualXcel's coworking spaces, tailored to your dynamic work style.",
+    image: Background2,
+  },
+  {
+    heading: " Your Personal Desk Awaits",
+    subHeading:
+      " Secure a dedicated desk at VirtualXcel, designed for focused and uninterrupted work.",
+    image: Background2,
+  },
+  {
+    heading: " Private Cabins for Premium Comfort",
+    subHeading:
+      "Elevate your workspace with VirtualXcel's exclusive private cabins, perfect for teams and individuals seeking privacy.",
+    image: Background2,
+  },
 ];
 
 function Banner5({ value = 0 }) {

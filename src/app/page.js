@@ -92,7 +92,7 @@ export default function Home() {
         <PriceItem />
         <PremiumLocations />
         <ZoomParallax />
-        <ProcessFlow />
+        {/* <ProcessFlow /> */}
         <p className={classes.heading2}>
           Our <span>Blogs</span>
         </p>

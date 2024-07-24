@@ -18,6 +18,7 @@ function Header({ dark = false }) {
   const [navbarBg, setNavbarBg] = useState("transparent");
   const [navBorder, setNavBorder] = useState(false);
   const [dropDownActive, setDropDownActive] = useState(false);
+  const [dropDownActive2, setDropDownActive2] = useState(false);
 
   useEffect(() => {
     const parts = path.split("/").filter((part) => part !== "");
@@ -38,6 +39,12 @@ function Header({ dark = false }) {
       setActiveNavItem("gst-registration");
     } else if (lastElement == "mailing-address") {
       setActiveNavItem("mailing-address");
+    } else if (lastElement == "desk") {
+      setActiveNavItem("desk");
+    } else if (lastElement == "cabins") {
+      setActiveNavItem("cabins");
+    } else if (lastElement == "day-pass") {
+      setActiveNavItem("day-pass");
     } else {
       setActiveNavItem("");
     }
@@ -198,10 +205,12 @@ function Header({ dark = false }) {
           <li
             className={`${classes.listItem} ${
               activeNavItem === "coworking-spaces" ? classes.active : ""
-            }`}
+            } ${classes.listItemwithDropdown2}`}
             onClick={() => {
               setActiveNavItem("coworking-spaces");
             }}
+            onMouseEnter={() => setDropDownActive2(true)}
+            onMouseLeave={() => setDropDownActive2(false)}
           >
             <Link
               className={classes.aTag}
@@ -209,6 +218,63 @@ function Header({ dark = false }) {
               href="/coworking-spaces"
             >
               Coworking Spaces
+              {dropDownActive2 && (
+                <ul className={classes.hoveredDropdown2}>
+                  <li
+                    onClick={(event) => {
+                      handleDropDownClick(event);
+                      if (!(event.metaKey || event.ctrlKey))
+                        setActiveNavItem("day-pass");
+                    }}
+                    className={`${classes.dropListItem} ${
+                      activeNavItem === "day-pass" ? classes.active : ""
+                    }`}
+                  >
+                    <Link
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="/day-pass"
+                    >
+                      Day Pass
+                    </Link>
+                  </li>
+                  <hr className={classes.line} />
+                  <li
+                    onClick={(event) => {
+                      handleDropDownClick(event);
+                      if (!(event.metaKey || event.ctrlKey))
+                        setActiveNavItem("cabins");
+                    }}
+                    className={`${classes.dropListItem} ${
+                      activeNavItem === "cabins" ? classes.active : ""
+                    }`}
+                  >
+                    <Link
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="/cabins"
+                    >
+                      Cabins
+                    </Link>
+                  </li>
+                  <hr className={classes.line} />
+                  <li
+                    onClick={(event) => {
+                      handleDropDownClick(event);
+                      if (!(event.metaKey || event.ctrlKey))
+                        setActiveNavItem("desk");
+                    }}
+                    className={`${classes.dropListItem} ${
+                      activeNavItem === "desk" ? classes.active : ""
+                    }`}
+                  >
+                    <Link
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="/desk"
+                    >
+                      Desk
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </Link>
           </li>
           <li
@@ -350,6 +416,47 @@ function Header({ dark = false }) {
         >
           Coworking Spaces
         </li>
+        <ul className={classes.dropMobileList}>
+          <li
+            onClick={(event) => {
+              handleDropDownClick(event);
+              setActiveNavItem("day-pass");
+              router.push("/day-pass");
+              setHamMenuOpen(false);
+            }}
+            className={`${classes.mobileDropListItem} ${
+              activeNavItem === "day-pass" ? classes.active : ""
+            }`}
+          >
+            Day Pass
+          </li>
+          <li
+            onClick={(event) => {
+              handleDropDownClick(event);
+              router.push("/cabins");
+              setActiveNavItem("cabins");
+              setHamMenuOpen(false);
+            }}
+            className={`${classes.mobileDropListItem} ${
+              activeNavItem === "cabins" ? classes.active : ""
+            }`}
+          >
+            Cabins
+          </li>
+          <li
+            onClick={(event) => {
+              handleDropDownClick(event);
+              setActiveNavItem("desk");
+              router.push("/desk");
+              setHamMenuOpen(false);
+            }}
+            className={`${classes.mobileDropListItem} ${
+              activeNavItem === "desk" ? classes.active : ""
+            }`}
+          >
+            Desk
+          </li>
+        </ul>
         <li
           className={`${classes.mobileListItem} ${
             activeNavItem === "partnership" ? classes.active : ""

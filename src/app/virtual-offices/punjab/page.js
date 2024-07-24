@@ -60,7 +60,7 @@ function page() {
           <p>for Your Business</p>
         </div>
         <VirtualBenefits />
-        <FrequentQuestions />
+        {/* <FrequentQuestions /> */}
       </div>
       <Footer />
     </>

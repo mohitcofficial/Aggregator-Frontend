@@ -93,6 +93,9 @@
 .listItemwithDropdown {
   position: relative;
 }
+.listItemwithDropdown2 {
+  position: relative;
+}
 .dropListItem.active {
   font-weight: 600;
   color: #fcab14;
@@ -106,6 +109,24 @@
   color: #474747;
   left: 0;
   width: 150%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  cursor: auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 -4px 6px -1px rgba(0, 0, 0, 0.1), 4px 0 6px -1px rgba(0, 0, 0, 0.1),
+    -4px 0 6px -1px rgba(0, 0, 0, 0.1);
+}
+.hoveredDropdown2 {
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+  background-color: white;
+  color: #474747;
+  left: 0;
+  width: 110%;
   border-radius: 10px;
   padding: 10px;
   display: flex;

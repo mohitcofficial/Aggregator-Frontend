@@ -31,10 +31,9 @@ function ReviewSlider() {
     <div className={classes.container}>
       <div className={classes.innerContainer}>
         <div className={classes.leftBox}>
-          <span className={classes.heading}>Insights from Our Clients</span>
+          <span className={classes.heading}>Customer Reviews</span>
           <span className={classes.subHeading}>
-            Read testimonials that highlight the value we bring to our clients'
-            projects and initiatives.
+            Here's what our clients have to say about us.
           </span>
           <div className={classes.buttons}>
             <div

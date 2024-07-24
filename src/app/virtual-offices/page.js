@@ -117,8 +117,8 @@ export default function page() {
         <VirtualBenefits />
         <VirtualServices />
         <ContactUsPoster />
-        <ProcessFlow />
-        <FrequentQuestions />
+        {/* <ProcessFlow /> */}
+        {/* <FrequentQuestions /> */}
         {/* <div className={classes.text}>
           <div className={classes.text1}>
             <div className={classes.heading}> What is Virtual Office ?</div>

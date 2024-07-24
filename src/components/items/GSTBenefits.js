@@ -19,7 +19,7 @@ function GSTBenefits() {
           <GavelIcon
             // fontSize="large"
             sx={{
-              color: "#FCAB14",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color} ${classes.icon}`}
@@ -49,7 +49,7 @@ function GSTBenefits() {
         icon={
           <HandshakeIcon
             sx={{
-              color: "#FCAB14",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
@@ -79,7 +79,7 @@ function GSTBenefits() {
         icon={
           <BusinessIcon
             sx={{
-              color: "#FCAB14",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}

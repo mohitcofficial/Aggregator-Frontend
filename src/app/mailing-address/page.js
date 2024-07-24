@@ -45,7 +45,7 @@ function page() {
           </div>
         </div>
         <PremuimLocations />
-        <FrequentQuestions />
+        {/* <FrequentQuestions /> */}
         <ReviewSlider />
       </div>
       <Footer />

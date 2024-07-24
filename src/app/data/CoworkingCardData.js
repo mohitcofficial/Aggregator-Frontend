@@ -2,13 +2,16 @@ export const coworkingCardDataArray = [
   {
     heading: "Day Pass",
     img: "/images/DayPass.png",
+    link: "/day-pass",
   },
   {
-    heading: "Dedicated Desk",
+    heading: "Desk",
     img: "/images/Desk.jpg",
+    link: "/desk",
   },
   {
     heading: "Cabins",
     img: "/images/Cabin.jpeg",
+    link: "/cabins",
   },
 ];

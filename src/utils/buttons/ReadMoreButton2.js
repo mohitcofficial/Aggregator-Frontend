@@ -14,7 +14,7 @@ function ReadMoreButton2() {
     });
   };
   return (
-    <div onClick={handleMaintainance} className={classes.readMoreButton}>
+    <div className={classes.readMoreButton}>
       <Link
         style={{
           textDecoration: "none",

@@ -11,15 +11,17 @@ function VirtualBenefits() {
   return (
     <div className={classes.container}>
       <WhyUsCard
-        heading={"Professional Business Address"}
+        heading={
+          "Optimizing Your Business Address for Maximum Impact and Trust"
+        }
         text={
-          "Credible business presence with a professional business address."
+          "The Impact of a Professional Address on Business Perceptions and Trustworthiness"
         }
         icon={
           <BusinessIcon
             // fontSize="large"
             sx={{
-              color: "#EC6A3B",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color} ${classes.icon}`}
@@ -27,14 +29,14 @@ function VirtualBenefits() {
         }
       />
       <WhyUsCard
-        heading={"Mail Handling Services"}
+        heading={"Choosing the Right Mail Handling Service"}
         text={
-          "Cost-effective mail handling services to streamline your business communication"
+          "Affordable mail handling services designed to streamline business communication efficiently."
         }
         icon={
           <EmailIcon
             sx={{
-              color: "#EC6A3B",
+              color: "#FCAB14",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
@@ -42,14 +44,14 @@ function VirtualBenefits() {
         }
       />
       <WhyUsCard
-        heading={"Bank/GST Verification"}
+        heading={"Optimizing Bank and GST Verification"}
         text={
-          "Timely verification of bank and GST details for seamless business transactions."
+          "Importance of Timely Bank and GST Verification for Smooth Business Transactions"
         }
         icon={
           <DomainVerificationIcon
             sx={{
-              color: "#EC6A3B",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
@@ -57,14 +59,12 @@ function VirtualBenefits() {
         }
       />
       <WhyUsCard
-        heading={"Cost Effective"}
-        text={
-          "Budget-friendly solutions for cost-effective business operations"
-        }
+        heading={"Cost Effective Solutions "}
+        text={"Budget-friendly solutions for optimizing business operations."}
         icon={
           <MonetizationOnIcon
             sx={{
-              color: "#EC6A3B",
+              color: "#FCAB14",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
@@ -72,14 +72,14 @@ function VirtualBenefits() {
         }
       />
       <WhyUsCard
-        heading={"Dedicated Customer Support"}
+        heading={"Dedicated Customer Support for Your Business"}
         text={
-          "Timely resolution of queries and issues with dedicated customer support."
+          "Timely resolution of customer queries and issues drives business success with dedicated customer support teams."
         }
         icon={
           <SupportAgentIcon
             sx={{
-              color: "#EC6A3B",
+              color: "#00a0d0",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
@@ -87,14 +87,14 @@ function VirtualBenefits() {
         }
       />
       <WhyUsCard
-        heading={"Access to Meeting Rooms"}
+        heading={"Meeting Spaces & Cabins Availability"}
         text={
-          "Flexible meeting room options to accommodate different group sizes and purposes."
+          "Feel free to use meeting rooms whenever you need them to suit your requirements and schedule."
         }
         icon={
           <GroupsIcon
             sx={{
-              color: "#EC6A3B",
+              color: "#FCAB14",
               fontSize: 45,
             }}
             className={`${classes.gradientText} ${classes.color}`}
