@@ -162,6 +162,7 @@ function Header({ dark = false }) {
                         display: "block",
                         width: "100%",
                         height: "100%",
+                        padding: "6px",
                       }}
                       href="/business-registration"
                     >
@@ -186,6 +187,7 @@ function Header({ dark = false }) {
                         display: "block",
                         width: "100%",
                         height: "100%",
+                        padding: "6px",
                       }}
                       href="/gst-registration"
                     >
@@ -210,6 +212,7 @@ function Header({ dark = false }) {
                         display: "block",
                         width: "100%",
                         height: "100%",
+                        padding: "6px",
                       }}
                       href="/mailing-address"
                     >
@@ -255,6 +258,7 @@ function Header({ dark = false }) {
                         width: "100%",
                         height: "100%",
                         display: "block",
+                        padding: "6px",
                       }}
                       href="/day-pass"
                     >
@@ -279,6 +283,7 @@ function Header({ dark = false }) {
                         display: "block",
                         width: "100%",
                         height: "100%",
+                        padding: "6px",
                       }}
                       href="/cabins"
                     >
@@ -303,6 +308,7 @@ function Header({ dark = false }) {
                         display: "block",
                         width: "100%",
                         height: "100%",
+                        padding: "6px",
                       }}
                       href="/desk"
                     >

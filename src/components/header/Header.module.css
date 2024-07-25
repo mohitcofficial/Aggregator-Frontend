@@ -149,7 +149,6 @@
 .dropListItem {
   list-style: none;
   font-size: 13px;
-  padding: 6px;
   box-sizing: border-box;
   margin: 2px 0;
   cursor: pointer;
