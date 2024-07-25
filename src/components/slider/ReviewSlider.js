@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { reviews } from "@/app/data/Reviews";
 import ReviewCard from "../items/ReviewCard";
+import ReviewsIcon from "@mui/icons-material/Reviews";
 
 function ReviewSlider() {
   var settings = {
@@ -27,11 +28,21 @@ function ReviewSlider() {
     ],
   };
   const sliderRef = useRef(null);
+  const fontSize = { lg: 36, md: 34, sm: 32, xs: 30 };
   return (
     <div className={classes.container}>
       <div className={classes.innerContainer}>
         <div className={classes.leftBox}>
-          <span className={classes.heading}>Customer Reviews</span>
+          <span className={classes.heading}>
+            <ReviewsIcon
+              sx={{
+                fontSize: fontSize,
+                color: "rgb(173, 52, 16)",
+                marginTop: "6px",
+              }}
+            />
+            Review Section
+          </span>
           <span className={classes.subHeading}>
             Here's what our clients have to say about us.
           </span>

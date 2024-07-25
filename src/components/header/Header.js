@@ -156,7 +156,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
                       href="/business-registration"
                     >
                       Business Registration
@@ -174,7 +180,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
                       href="/gst-registration"
                     >
                       GST Registration
@@ -192,7 +204,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
                       href="/mailing-address"
                     >
                       Mailing Address
@@ -231,7 +249,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        width: "100%",
+                        height: "100%",
+                        display: "block",
+                      }}
                       href="/day-pass"
                     >
                       Day Pass
@@ -249,7 +273,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
                       href="/cabins"
                     >
                       Cabins
@@ -267,7 +297,13 @@ function Header({ dark = false }) {
                     }`}
                   >
                     <Link
-                      style={{ textDecoration: "none", color: "inherit" }}
+                      style={{
+                        textDecoration: "none",
+                        color: "inherit",
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
                       href="/desk"
                     >
                       Desk

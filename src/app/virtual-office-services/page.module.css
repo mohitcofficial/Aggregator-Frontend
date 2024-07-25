@@ -104,6 +104,7 @@
 }
 .buyNowButton {
   background-color: #e52500;
+  background-color: var(--primary-color-light);
   border: none;
   outline: none;
   color: white;
@@ -117,6 +118,7 @@
 }
 .buyNowButton:hover {
   background-color: #c32100;
+  background-color: var(--primary-color);
 }
 .rightContainer {
   display: flex;
@@ -209,6 +211,11 @@
     font-size: 24px;
     text-align: center;
     justify-content: center;
+  }
+  .buyNowButton {
+    height: 40px;
+    width: 225px;
+    font-size: 12px;
   }
 }
 @media (max-width: 400px) {

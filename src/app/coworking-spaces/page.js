@@ -2,9 +2,9 @@ import CoworkingBanner from "@/components/banner/CoworkingBanner";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Card from "@/components/items/Card";
-import ContactUsPoster from "@/components/items/ContactUsPoster";
 import ContactViaSticker from "@/components/items/ContactViaSticker";
 import Facilities from "@/components/items/Facilities";
+import NeedExpertPoster from "@/components/items/NeedExpertPoster";
 import WhyCoworking from "@/components/items/WhyCoworking";
 import WhyUs from "@/components/items/WhyUs";
 import ReviewSlider from "@/components/slider/ReviewSlider";
@@ -50,7 +50,7 @@ function page() {
             <span> Virtualxcel ?</span>
           </p>
           <WhyUs />
-          <ContactUsPoster />
+          <NeedExpertPoster />
           <ReviewSlider />
         </div>
       </div>

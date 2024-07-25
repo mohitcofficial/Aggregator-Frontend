@@ -103,6 +103,7 @@
 }
 .buyNowButton {
   background-color: #e52500;
+  background-color: var(--primary-color-light);
   border: none;
   outline: none;
   color: white;
@@ -115,7 +116,7 @@
   cursor: pointer;
 }
 .buyNowButton:hover {
-  background-color: #c32100;
+  background-color: var(--primary-color);
 }
 .rightContainer {
   display: flex;
@@ -130,6 +131,17 @@
   position: relative;
   width: 600px;
   height: 400px;
+}
+
+.backgroundDesign {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  width: 105%;
+  height: 105%;
+  background: linear-gradient(135deg, #ffdd6cd2 0%, #ff9c80d7 100%);
+  clip-path: polygon(0% 0%, 100% 0, 85% 100%, 0% 85%);
+  filter: opacity(0.6);
 }
 
 .image {
@@ -166,13 +178,6 @@
   width: 90%;
 }
 
-/* .heading {
-  font-size: 24px;
-  font-weight: 600;
-  color: black;
-  margin: 12px 0;
-} */
-
 .bold {
   font-weight: 600;
 }
@@ -205,6 +210,20 @@
   .heading0 {
     font-size: 28px;
   }
+
+  .marginBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftContainer {
+    width: 90%;
+    margin-bottom: 32px;
+  }
+  .rightContainer {
+    width: 90%;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 800px) {
@@ -214,15 +233,40 @@
     text-align: center;
     justify-content: center;
   }
+
+  .marginBlock {
+    width: 100%;
+  }
+  .imageContainer {
+    height: 350px;
+  }
 }
 @media (max-width: 600px) {
   .text {
-    font-size: 15px;
+    font-size: 12px;
   }
   .heading {
-    font-size: 22px;
+    font-size: 24px;
   }
   .point {
     margin: 6px 0;
+  }
+  .imageContainer {
+    width: 600px;
+    height: 300px;
+  }
+  .container2 {
+    margin-top: 0;
+  }
+  .buyNowButton {
+    height: 40px;
+    width: 225px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .imageContainer {
+    width: 600px;
+    height: 275px;
   }
 }

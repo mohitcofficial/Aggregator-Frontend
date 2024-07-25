@@ -67,7 +67,7 @@
 
 .icon:hover {
   transform: scale(1.1);
-  color: var(--secondary-color);
+  color: var(--hover-highlight-color);
 }
 
 .heading {
@@ -90,7 +90,7 @@
 }
 
 .links:hover {
-  color: rgb(180, 198, 214);
+  color: var(--hover-highlight-color);
   transform: scale(1.05);
 }
 

@@ -23,12 +23,16 @@
 .heading0 {
   margin: 24px 0;
   font-size: 32px;
+  gap: 8px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: 400;
+}
+.heading0 > span {
+  font-weight: 600;
 }
 
 .heading0 > p {

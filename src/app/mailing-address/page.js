@@ -9,6 +9,7 @@ import GSTBenefits from "@/components/items/GSTBenefits";
 import PremuimLocations from "@/components/items/PremiumLocations";
 import ReviewSlider from "@/components/slider/ReviewSlider";
 import FrequentQuestions from "@/components/frequent-questions/FrequentQuestions";
+import VirtualBenefits from "@/components/items/VirtualBenefits";
 
 export const metadata = {
   title: "Professional Mailing Address Services | Virtualxcel",
@@ -45,6 +46,11 @@ function page() {
           </div>
         </div>
         <PremuimLocations />
+        <h1 className={classes.heading0}>
+          <p>Expand Your Business with </p>
+          <span>Virtual Office Benefits</span>
+        </h1>
+        <VirtualBenefits />
         {/* <FrequentQuestions /> */}
         <ReviewSlider />
       </div>

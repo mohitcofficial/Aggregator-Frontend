@@ -82,8 +82,9 @@
   align-items: center;
   list-style: none;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
   color: white;
+  color: var(--highlight-color);
 }
 
 .aTag {
@@ -105,8 +106,8 @@
   position: absolute;
   top: 100%;
   z-index: 20;
-  background-color: white;
   color: #474747;
+  background-color: #fff;
   left: 0;
   width: 150%;
   border-radius: 10px;
@@ -149,6 +150,7 @@
   list-style: none;
   font-size: 13px;
   padding: 6px;
+  box-sizing: border-box;
   margin: 2px 0;
   cursor: pointer;
 }
@@ -333,7 +335,7 @@
 @media (max-width: 1275px) and (min-width: 1000px) {
   .listItem {
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .logo {

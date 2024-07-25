@@ -42,8 +42,9 @@ function BlogCard({ heading, content, index }) {
       </div>
       <p className={classes.heading}>{heading}</p>
       <p className={classes.content}>{content}</p>
-
-      <ReadMoreButton2 />
+      <div className={classes.buttonContainer}>
+        <ReadMoreButton2 />
+      </div>
     </div>
   );
 }

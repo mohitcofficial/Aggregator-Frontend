@@ -7,7 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import classes from "./ContactViaSticker.module.css";
 
 function ContactViaSticker() {
-  const fontSize = { xs: 26, sm: 28, md: 32, lg: 32 };
+  const fontSize = { xs: 24, sm: 26, md: 30, lg: 30 };
   const handleClick = (url) => {
     return () => {
       window.open(url, "_blank");

@@ -8,6 +8,7 @@
 .innerContainer {
   width: 94%;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   box-sizing: border-box;
   padding: 24px 0;
@@ -28,9 +29,14 @@
 }
 
 .heading {
-  font-size: 36px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 34px;
   font-weight: 600;
   margin: 4px 0;
+  word-break: break-all;
 }
 
 .subHeading {

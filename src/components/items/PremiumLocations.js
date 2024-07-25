@@ -18,6 +18,7 @@ function PremuimLocations() {
         <p className={classes.heading}>
           Our
           <span>Premium Locations</span>
+          in India
         </p>
         <div className={classes.locationContainer}>
           <div className={classes.box1}>

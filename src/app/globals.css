@@ -1,13 +1,13 @@
 :root {
   --primary-color: #191c20;
-  --primary-color-light: #002d5a;
+  --primary-color-light: #34455c;
   --secondary-color: #ff595a;
   --accent-color: #ff851b;
   --text-color: #333333;
   --background-color: #f2f2f2;
   --highlight-color: #f3ece3;
   --active-highlight-color: #ff595a;
-  --hover-highlight-color: #ff595a;
+  --hover-highlight-color: #fde091;
 }
 
 * {
@@ -34,7 +34,7 @@ body {
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
+    50%,
     rgba(252, 176, 69, 1) 100%
   );
   -webkit-background-clip: text;

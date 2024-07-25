@@ -1,29 +1,36 @@
 .container {
   display: flex;
-  flex-direction: column;
-  background-color: #f7f7f7;
-  width: 30%;
-  max-width: 30%;
+  align-items: center;
+  gap: 24px;
+  width: 80%;
+  max-width: 80%;
   min-width: 250px;
-  margin: 0 10px 24px 10px;
-  box-sizing: border-box;
-  padding: 32px 28px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 2px 2px 4px rgba(0, 0, 0, 0.1),
-    3px 3px 8px rgba(0, 0, 0, 0.1), 4px 4px 16px rgba(0, 0, 0, 0.1);
+  margin: 32px 0;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.container.right {
+  justify-content: flex-end;
 }
 
 .heading {
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 20px;
   margin: 16px 0 12px 0;
 }
 .text {
   font-size: 14px;
+  color: #404040;
 }
 
-.icon {
+.text.right,
+.heading.right {
+  text-align: right;
 }
-
 .gradientText {
   margin-bottom: 8px;
   background-image: linear-gradient(
@@ -44,18 +51,38 @@
   );
 }
 
+@media (max-width: 800px) {
+  .text {
+    font-size: 13px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .container {
+    width: 98%;
+    max-width: 98%;
+  }
+  .contentContainer {
+    width: 100%;
+  }
+}
+
 @media (max-width: 550px) {
   .container {
-    width: 80%;
-    max-width: 80%;
+    gap: 20px;
+  }
+  .heading {
+    font-size: 17px;
   }
 }
 @media (max-width: 400px) {
   .container {
-    width: 90%;
-    max-width: 90%;
+    gap: 18px;
+  }
+  .heading {
+    font-size: 16px;
   }
   .text {
-    font-size: 12.5px;
+    font-size: 12px;
   }
 }
