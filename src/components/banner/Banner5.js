@@ -3,6 +3,9 @@ import classes from "./Banner5.module.css";
 import Image from "next/image";
 import Background1 from "../../../public/images/BusinessRegistration2.jpg";
 import Background2 from "../../../public/images/GSTRegistration.jpeg";
+import Background3 from "../../../public/images/DayPassBanner.jpeg";
+import Background4 from "../../../public/images/DeskBanner.jpeg";
+import Background5 from "../../../public/images/CabinBanner.jpeg";
 import LPContactForm from "../form/LPContactForm";
 import TransparentForm from "../form/TransparentForm";
 
@@ -30,19 +33,19 @@ const data = [
     heading: "Experience Flexibility with Our Day Passes",
     subHeading:
       "Enjoy a productive day at VirtualXcel's coworking spaces, tailored to your dynamic work style.",
-    image: Background2,
+    image: Background3,
   },
   {
     heading: " Your Personal Desk Awaits",
     subHeading:
       " Secure a dedicated desk at VirtualXcel, designed for focused and uninterrupted work.",
-    image: Background2,
+    image: Background4,
   },
   {
     heading: " Private Cabins for Premium Comfort",
     subHeading:
       "Elevate your workspace with VirtualXcel's exclusive private cabins, perfect for teams and individuals seeking privacy.",
-    image: Background2,
+    image: Background5,
   },
 ];
 

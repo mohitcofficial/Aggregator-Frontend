@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import { Toaster } from "react-hot-toast";
 import TawkToChat from "@/utils/TalkToChat";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
         {<TawkToChat />}
         <Toaster position="bottom-center" reverseOrder={false} />
         {children}
+        <GoogleTagManager gtmId="GTM-T55KLQJJ" />
       </body>
     </html>
   );

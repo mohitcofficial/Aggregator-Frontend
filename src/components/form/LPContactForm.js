@@ -7,6 +7,7 @@ import swal from "sweetalert";
 import LoadingAnimaiton from "../../../public/images/LoadingAnimation2.svg";
 import UserApis from "../../services/User.api.services";
 import classes from "./LPContactForm.module.css";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 function LPContactForm() {
   const router = useRouter();
@@ -36,13 +37,14 @@ function LPContactForm() {
     setLoading(true);
     try {
       const resp = await UserApis.sendMail(body);
-      if (typeof window !== "undefined" && window.gtag) {
-        window.gtag("event", "submit", {
-          event_category: "form",
-          event_label: "Landing Page Contact Form",
-          event_action: "submit",
-        });
-      }
+      // if (typeof window !== "undefined" && window.gtag) {
+      //   window.gtag("event", "submit", {
+      //     event_category: "form",
+      //     event_label: "Landing Page Contact Form",
+      //     event_action: "submit",
+      //   });
+      // }
+      sendGTMEvent({ event: "formSubmit", value: "Landing Page" });
       setLoading(false);
       toast.success("Thank You For Contacting Us !");
       setFormState(initialInputValue);
