@@ -3,7 +3,8 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 675px;
+  height: 650px;
+  margin-bottom: 44px;
 }
 
 .backgroundImage {
@@ -11,13 +12,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 675px;
+  height: 650px;
   z-index: 0;
 }
 
 .image {
   width: 100%;
-  height: 675px;
+  height: 650px;
   max-height: 100%;
   object-fit: cover;
   object-position: center;
@@ -92,6 +93,18 @@
 .image2 {
   object-fit: cover;
 }
+
+.locationsContainer {
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 80%);
+  z-index: 10;
+  height: 225px;
+  background-color: transparent;
+}
+
 @media (max-width: 1275px) and (min-width: 1001px) {
   .container {
     height: 650px;

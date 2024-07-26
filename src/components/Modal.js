@@ -66,11 +66,12 @@ export default function CustomModal({ children }) {
       toast.success("Thank You For Contacting Us !");
       setFormState(initialInputValue);
       setOpen(false);
-      swal(
-        "Form Submitted Successfully !",
-        "Our team will contact you as soon as possible",
-        "success"
-      ).then(() => router.push("/"));
+      // swal(
+      //   "Form Submitted Successfully !",
+      //   "Our team will contact you as soon as possible",
+      //   "success"
+      // ).then(() => router.push("/"));
+      router.push("/thank-you");
     } catch (error) {
       console.log(error);
       toast.error("Something Went Wrong ! Try Again Later");

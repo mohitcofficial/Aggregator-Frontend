@@ -1,8 +1,7 @@
 import Image from "next/image";
 import LP4 from "../../../public/images/LP4.jpg";
-import StickerContainer2 from "../items/StickerContainer2";
-import classes from "./LPBanner.module.css";
 import LPContactForm from "../form/LPContactForm";
+import classes from "./LPBanner.module.css";
 
 function LPBanner() {
   return (

@@ -40,3 +40,36 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.slick-list,
+.slick-track {
+  gap: 10px;
+}
+
+.slick-slide {
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+
+.slick-prev {
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: yellow;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--primary-color) !important;
+  font-size: 24px !important;
+}
+
+@media (max-width: 800px) {
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}
