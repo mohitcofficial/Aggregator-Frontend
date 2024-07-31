@@ -3,11 +3,11 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
 import toast from "react-hot-toast";
-import swal from "sweetalert";
 import LoadingAnimaiton from "../../../public/images/LoadingAnimation2.svg";
 import UserApis from "../../services/User.api.services";
 import classes from "./LPContactForm.module.css";
 import { sendGTMEvent } from "@next/third-parties/google";
+// import swal from "sweetalert";
 
 function LPContactForm() {
   const router = useRouter();
@@ -79,34 +79,6 @@ function LPContactForm() {
                         <br>
                         Have a good day!`;
 
-      // const mailTemplate = {
-      //   // SecureToken: "28bf75bc-dd1f-47f4-bde9-b69e4c7c3110",
-      //   SecureToken: "06490094-cfc2-424b-b710-c70d39686a65",
-      //   To: "coworktown99@gmail.com",
-      //   From: "coworktown99@gmail.com",
-      //   Subject: `New message to Virtualxcel from ${formState.user_email}`,
-      //   Body: mailBody,
-      // };
-
-      // if (window.Email) {
-      //   window.Email.send(mailTemplate)
-      //     .then((message) => {
-      //       toast.success("Thank You For Contacting Us !");
-      //       swal(
-      //         "Form Submitted Successfully !",
-      //         "Our team will contact you as soon as possible",
-      //         "success"
-      //       ).then(() => router.push("/"));
-      //     })
-      //     .then(setFormState(initialInputValue))
-      //     .catch(() => {
-      //       toast.error("Something Went Wrong ! Try Again Later");
-      //     });
-      // } else {
-      //   toast.error("Something Went Wrong ! Try Again Later");
-      //   // alert("Unable to Send");
-      // }
-
       sendMail(mailBody);
     }
   };
@@ -147,16 +119,6 @@ function LPContactForm() {
       method="POST"
     >
       <p className={classes.heading}>Get in Touch with Us!</p>
-      {/* <div className={classes.points}>
-        <div className={classes.point}>
-          <DoneIcon sx={{ fontSize: fontSize, color: "rgb(0, 156, 0)" }} />
-          <p className={classes.text}>Lowest Price Guarantee</p>
-        </div>
-        <div className={classes.point}>
-          <DoneIcon sx={{ fontSize: fontSize, color: "rgb(0, 156, 0)" }} />
-          <p className={classes.text}>1hr Average Response Time</p>
-        </div>
-      </div> */}
       <input
         placeholder="Name"
         className={classes.input}

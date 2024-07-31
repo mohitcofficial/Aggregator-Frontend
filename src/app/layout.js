@@ -36,33 +36,6 @@ export default function RootLayout({ children }) {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
-        {/* Google Tag Manager */}
-        {/* <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-Q4CT4BWRJJ`}
-        />
-        <Script id="google-analytics-1" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-Q4CT4BWRJJ');
-        `}
-        </Script>
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=AW-16609409855`}
-        />
-        <Script id="google-analytics-2" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'AW-16609409855');
-        `}
-        </Script> */}
       </head>
       <GoogleTagManager gtmId="GTM-T55KLQJJ" />
       <body
