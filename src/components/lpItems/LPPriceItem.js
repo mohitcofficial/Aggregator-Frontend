@@ -3,10 +3,12 @@ import React from "react";
 import classes from "./LPPriceItem.module.css";
 import { BoxData2 } from "@/app/data/PriceCardData";
 import LPPriceCard from "./LPPriceCard";
+import WavyBackground1 from "../background/WavyBackground1";
 
 function LPPriceItem() {
   return (
     <div className={classes.container}>
+      <WavyBackground1 />
       <div className={classes.heading}>
         <div className={classes.heading2}>
           Select the Perfect Virtual Office for Your Specific Needs

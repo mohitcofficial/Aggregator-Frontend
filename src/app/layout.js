@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
         {/* Google Tag Manager */}
-        <Script
+        {/* <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=G-Q4CT4BWRJJ`}
         />
@@ -62,17 +62,25 @@ export default function RootLayout({ children }) {
 
           gtag('config', 'AW-16609409855');
         `}
-        </Script>
+        </Script> */}
       </head>
+      <GoogleTagManager gtmId="GTM-T55KLQJJ" />
       <body
         className={poppins.className}
         style={{ width: "100%", maxWidth: "100%" }}
       >
-        {/* <Script src="//js-na1.hs-scripts.com/45211481.js" /> */}
         {<TawkToChat />}
         <Toaster position="bottom-center" reverseOrder={false} />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T55KLQJJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
         {children}
-        <GoogleTagManager gtmId="GTM-T55KLQJJ" />
       </body>
     </html>
   );

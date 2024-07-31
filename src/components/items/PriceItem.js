@@ -1,12 +1,13 @@
 "use client";
-import React from "react";
-import classes from "./PriceItem.module.css";
 import { BoxData2 } from "@/app/data/PriceCardData";
+import WavyBackground3 from "../background/WavyBackground3";
 import PriceCard from "./PriceCard";
+import classes from "./PriceItem.module.css";
 
 function LPPriceItem() {
   return (
     <div className={classes.container}>
+      <WavyBackground3 />
       <div className={classes.heading}>
         <div className={classes.heading2}>
           Select the Perfect Virtual Office for Your Specific Needs

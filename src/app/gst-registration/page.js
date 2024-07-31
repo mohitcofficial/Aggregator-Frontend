@@ -9,6 +9,7 @@ import PriceCard from "@/components/items/PriceCard";
 import ScrollParallax from "@/components/animations/ScrollParallax";
 import { BoxData2 } from "../data/PriceCardData";
 import GSTBenefits from "@/components/items/GSTBenefits";
+import WavyBackground3 from "@/components/background/WavyBackground3";
 
 export const metadata = {
   title: "Quick and Easy GST Registration Services | Virtualxcel",
@@ -26,6 +27,7 @@ function page() {
       <div className={classes.container}>
         <Banner5 value={1} />
         <div className={classes.container2}>
+          <WavyBackground3 />
           <div className={classes.headingContainer}>
             <h2 className={classes.heading1}>
               Best Plan For <b>GST Registration</b>

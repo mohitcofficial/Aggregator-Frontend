@@ -10,6 +10,7 @@ import PremuimLocations from "@/components/items/PremiumLocations";
 import ReviewSlider from "@/components/slider/ReviewSlider";
 import FrequentQuestions from "@/components/frequent-questions/FrequentQuestions";
 import VirtualBenefits from "@/components/items/VirtualBenefits";
+import WavyBackground3 from "@/components/background/WavyBackground3";
 
 export const metadata = {
   title: "Professional Mailing Address Services | Virtualxcel",
@@ -27,6 +28,7 @@ function page() {
       <div className={classes.container}>
         <Banner5 value={2} />
         <div className={classes.container2}>
+          <WavyBackground3 />
           <div className={classes.headingContainer}>
             <h2 className={classes.heading1}>
               Best Plan For <b>Mailing Address</b>

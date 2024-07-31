@@ -10,6 +10,7 @@ import Footer from "@/components/footer/Footer";
 import ReviewSlider from "@/components/slider/ReviewSlider";
 import PremuimLocations from "@/components/items/PremiumLocations";
 import BusinessBenefits from "@/components/items/BusinessBenefits";
+import WavyBackground3 from "@/components/background/WavyBackground3";
 
 export const metadata = {
   title: "Best Business Registration Services",
@@ -27,6 +28,7 @@ function page() {
       <div className={classes.container}>
         <Banner5 value={0} />
         <div className={classes.container2}>
+          <WavyBackground3 />
           <div className={classes.headingContainer}>
             <h2 className={classes.heading1}>
               Best Plan For <b>Business Registration</b>

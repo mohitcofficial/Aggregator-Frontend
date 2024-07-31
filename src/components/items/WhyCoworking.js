@@ -1,8 +1,6 @@
-import React from "react";
-import classes from "./WhyCoworking.module.css";
-import ReadMoreButton from "@/utils/buttons/ReadMoreButton";
-import WhyCoworkingImage from "../../../public/images/WhyCoworking.jpg";
 import Image from "next/image";
+import WhyCoworkingImage from "../../../public/images/WhyCoworking.jpg";
+import classes from "./WhyCoworking.module.css";
 
 function WhyCoworking() {
   return (

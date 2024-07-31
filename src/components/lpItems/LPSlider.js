@@ -16,8 +16,16 @@ import Image from "next/image";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import CustomModal from "../Modal";
+import ConnaughtPlaceImage from "../../../public/images/services/Delhi/ConnaughtPlace.jpeg";
 
-function LPSlider() {
+import NehruPlaceImage from "../../../public/images/services/Delhi/NehruPlace.jpeg";
+import LajpatNagarImage from "../../../public/images/services/Delhi/LajpatNagar.jpeg";
+import PitampuraImage from "../../../public/images/services/Delhi/Pitampura.jpeg";
+import DwarkaImage from "../../../public/images/services/Delhi/Dwarka.jpeg";
+import SaketImage from "../../../public/images/services/Delhi/Saket.jpg";
+import RohiniImage from "../../../public/images/services/Delhi/Rohini.jpg";
+
+function LPSlider({ name = "all" }) {
   var settings = {
     arrows: false,
     dots: false,
@@ -37,41 +45,79 @@ function LPSlider() {
     ],
   };
   const sliderRef = useRef(null);
-  const lpData = [
-    {
-      image: DelhiImage,
-      name: "Delhi",
-      price: 999,
-    },
-    {
-      image: HaryanaImage,
-      name: "Gurgaon",
-      price: 999,
-    },
-    {
-      image: NoidaImage,
-      name: "Noida",
-      price: 999,
-    },
-    {
-      image: BangaloreImage,
-      name: "Bangalore",
-      price: 999,
-    },
-    {
-      image: KolkataImage,
-      name: "Kolkata",
-      price: 999,
-    },
-    {
-      image: MaharashtraImage,
-      name: "Mumbai",
-      price: 999,
-    },
-  ];
+  const data = {
+    all: [
+      {
+        image: DelhiImage,
+        name: "Delhi",
+        price: 999,
+      },
+      {
+        image: HaryanaImage,
+        name: "Gurgaon",
+        price: 999,
+      },
+      {
+        image: NoidaImage,
+        name: "Noida",
+        price: 999,
+      },
+      {
+        image: BangaloreImage,
+        name: "Bangalore",
+        price: 999,
+      },
+      {
+        image: KolkataImage,
+        name: "Kolkata",
+        price: 999,
+      },
+      {
+        image: MaharashtraImage,
+        name: "Mumbai",
+        price: 999,
+      },
+    ],
+    Delhi: [
+      {
+        image: SaketImage,
+        name: "Saket",
+        price: 999,
+      },
+      {
+        image: NehruPlaceImage,
+        name: "Nehru Place",
+        price: 999,
+      },
+      {
+        image: ConnaughtPlaceImage,
+        name: "Connaught Place",
+        price: 999,
+      },
+      {
+        image: RohiniImage,
+        name: "Rohini",
+        price: 999,
+      },
+      {
+        image: PitampuraImage,
+        name: "Pitampura",
+        price: 999,
+      },
+      {
+        image: DwarkaImage,
+        name: "Dwarka",
+        price: 999,
+      },
+      {
+        image: LajpatNagarImage,
+        name: "Lajpat Nagar",
+        price: 999,
+      },
+    ],
+  };
   const fontSize = { lg: 28, md: 24, sm: 24, xs: 24 };
   const fontSize2 = { lg: 13, md: 12, sm: 12, xs: 12 };
-  const fontSize3 = { lg: 13, md: 12, sm: 12, xs: 12 };
   return (
     <div className={classes.container}>
       <h2 className={classes.heading}>
@@ -87,9 +133,9 @@ function LPSlider() {
       <div className={classes.innerContainer}>
         <div className={classes.rightBox}>
           <Slider ref={sliderRef} {...settings}>
-            {lpData.map((item, index) => (
-              <CustomModal>
-                <div key={index} className={classes.imageContainer}>
+            {data[name]?.map((item, index) => (
+              <CustomModal key={index}>
+                <div className={classes.imageContainer}>
                   <Image
                     className={classes.image}
                     src={item.image}

@@ -3,16 +3,15 @@ import VirtualBenefits from "@/components/items/VirtualBenefits";
 import LPFooter from "@/components/lpItems/LPFooter";
 import LPGuarantee from "@/components/lpItems/LPGuarantee";
 import LPHeader from "@/components/lpItems/LPHeader";
-import LPLocations from "@/components/lpItems/LPLocatons";
 import LPPriceItem from "@/components/lpItems/LPPriceItem";
 import LPServices from "@/components/lpItems/LPServices";
+import LPSlider from "@/components/lpItems/LPSlider";
 import CustomModal from "@/components/Modal";
 import ReviewSlider from "@/components/slider/ReviewSlider";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import Image from "next/image";
 import LP1 from "../../../public/images/LP1.jpg";
 import classes from "./page.module.css";
-import LPSlider from "@/components/lpItems/LPSlider";
 
 export const metadata = {
   title: "Best Virtual Offices & Business Addresses Across India",
@@ -75,7 +74,6 @@ function page() {
             </div>
           </div>
         </div>
-        {/* <LPLocations /> */}
         <LPPriceItem />
         <LPGuarantee />
         <h1 className={classes.heading0}>
