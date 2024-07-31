@@ -3,11 +3,12 @@ import { Box } from "@mui/material";
 import Modal from "@mui/material/Modal";
 import React, { useRef, useState } from "react";
 import toast from "react-hot-toast";
-import swal from "sweetalert";
+// import swal from "sweetalert";
 import classes from "./Modal.module.css";
 
 import UserApis from "../services/User.api.services";
 import { useRouter } from "next/navigation";
+import { sendGTMEvent } from "@next/third-parties/google";
 
 const style = {
   position: "absolute",
@@ -62,6 +63,7 @@ export default function CustomModal({ children }) {
           event_action: "submit",
         });
       }
+      sendGTMEvent({ event: "formSubmit", value: "Landing Page" });
       setLoading(false);
       toast.success("Thank You For Contacting Us !");
       setFormState(initialInputValue);
