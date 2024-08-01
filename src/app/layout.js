@@ -4,6 +4,7 @@ import Script from "next/script";
 import { Toaster } from "react-hot-toast";
 import TawkToChat from "@/utils/TalkToChat";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
       </head>
+      <GoogleAnalytics gaId="G-KQWV7CENMY" />
       <GoogleTagManager gtmId="GTM-T55KLQJJ" />
       <body
         className={poppins.className}

@@ -12,7 +12,6 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import Image from "next/image";
 import LP1 from "../../../public/images/LP1.jpg";
 import classes from "./page.module.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "Best Virtual Offices & Business Addresses Across India",
@@ -29,7 +28,6 @@ export const metadata = {
 function page() {
   return (
     <>
-      <GoogleAnalytics gaId="G-SJ232RJMK1" />
       <LPHeader />
       <div className={classes.container}>
         <LPBanner />
