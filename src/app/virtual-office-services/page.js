@@ -12,6 +12,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import Image from "next/image";
 import LP1 from "../../../public/images/LP1.jpg";
 import classes from "./page.module.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Best Virtual Offices & Business Addresses Across India",
@@ -28,6 +29,15 @@ export const metadata = {
 function page() {
   return (
     <>
+      <Script type="text/javascript">
+        {`
+          (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ngvpjxtrl3");
+        `}
+      </Script>
       <LPHeader />
       <div className={classes.container}>
         <LPBanner />
