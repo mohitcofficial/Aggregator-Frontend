@@ -37,6 +37,19 @@ export default function RootLayout({ children }) {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
         />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16609409855"
+        />
+        <Script id="google-ads-gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-16609409855');
+          `}
+        </Script>
       </head>
       <GoogleAnalytics gaId="G-KQWV7CENMY" />
       <GoogleTagManager gtmId="GTM-T55KLQJJ" />
