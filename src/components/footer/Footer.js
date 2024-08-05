@@ -1,4 +1,3 @@
-"use client";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -7,22 +6,11 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import XIcon from "@mui/icons-material/X";
 import Link from "next/link";
-import toast from "react-hot-toast";
 import classes from "./Footer.module.css";
 import Image from "next/image";
 import TransparentLogo from "../../../public/images/TransparentLogo2.png";
 
 function Footer() {
-  const handleMaintainance = () => {
-    toast("Section Under Maintainance!", {
-      icon: "⚠️",
-    });
-  };
-  const handleInternalClick = (url) => {
-    return () => {
-      window.open(url, "_blank");
-    };
-  };
   return (
     <div className={classes.container}>
       <div className={classes.container1}>
@@ -42,32 +30,34 @@ function Footer() {
           </div>
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
           <div className={classes.handlesLink}>
-            <FacebookIcon
-              onClick={handleInternalClick(
-                "https://www.facebook.com/profile.php?id=61562676830223"
-              )}
+            <a
+              href="https://www.facebook.com/profile.php?id=61562676830223"
+              target="_blank"
               className={classes.icon}
-              sx={{ fontSize: 22 }}
-            />
-            <InstagramIcon
-              onClick={handleInternalClick(
-                "https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
-              )}
+            >
+              <FacebookIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
+              target="_blank"
               className={classes.icon}
-              sx={{ fontSize: 22 }}
-            />
-            <LinkedInIcon
-              onClick={handleInternalClick(
-                "https://www.linkedin.com/company/virtualxcel-solutions"
-              )}
+            >
+              <InstagramIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/virtualxcel-solutions"
+              target="_blank"
               className={classes.icon}
-              sx={{ fontSize: 22 }}
-            />
-            <XIcon
-              onClick={handleInternalClick("https://x.com/virtualxcel")}
+            >
+              <LinkedInIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://x.com/virtualxcel"
+              target="_blank"
               className={classes.icon}
-              sx={{ fontSize: 18 }}
-            />
+            >
+              <XIcon sx={{ fontSize: 18 }} />
+            </a>
           </div>
         </div>
         <div className={classes.box1}>

@@ -1,30 +1,21 @@
-"use client";
-import classes from "./LPFooter.module.css";
-import React from "react";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { useRouter } from "next/navigation";
-import toast from "react-hot-toast";
-import CustomModal from "../Modal";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import XIcon from "@mui/icons-material/X";
 import Image from "next/image";
+import toast from "react-hot-toast";
 import TransparentLogo from "../../../public/images/TransparentLogo2.png";
+import CustomModal from "../Modal";
+import classes from "./LPFooter.module.css";
 
 function LPFooter() {
-  const router = useRouter();
   const handleMaintainance = () => {
     toast("Section Under Maintainance!", {
       icon: "⚠️",
     });
-  };
-  const handleInternalClick = (url) => {
-    return () => {
-      window.open(url, "_blank");
-    };
   };
   return (
     <div className={classes.container}>
@@ -46,10 +37,34 @@ function LPFooter() {
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
           <CustomModal>
             <div className={classes.handlesLink}>
-              <FacebookIcon className={classes.icon} sx={{ fontSize: 22 }} />
-              <InstagramIcon className={classes.icon} sx={{ fontSize: 22 }} />
-              <LinkedInIcon className={classes.icon} sx={{ fontSize: 22 }} />
-              <XIcon className={classes.icon} sx={{ fontSize: 18 }} />
+              <a
+                href="https://www.facebook.com/profile.php?id=61562676830223"
+                target="_blank"
+                className={classes.icon}
+              >
+                <FacebookIcon sx={{ fontSize: 22 }} />
+              </a>
+              <a
+                href="https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
+                target="_blank"
+                className={classes.icon}
+              >
+                <InstagramIcon sx={{ fontSize: 22 }} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/virtualxcel-solutions"
+                target="_blank"
+                className={classes.icon}
+              >
+                <LinkedInIcon sx={{ fontSize: 22 }} />
+              </a>
+              <a
+                href="https://x.com/virtualxcel"
+                target="_blank"
+                className={classes.icon}
+              >
+                <XIcon sx={{ fontSize: 18 }} />
+              </a>
             </div>
           </CustomModal>
         </div>

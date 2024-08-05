@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #191c20;
+  color: var(--highlight-color);
 }
 
 .container1 {
@@ -18,11 +19,9 @@
 .box1 {
   min-width: 260px;
   width: 19%;
-  color: rgb(147, 162, 176);
 }
 .box2 {
   width: 24%;
-  color: rgb(147, 162, 176);
 }
 
 .box3 {
@@ -57,11 +56,12 @@
   align-items: center;
   gap: 16px;
   width: 100%;
-  color: rgb(147, 162, 176);
+  /* color: rgb(147, 162, 176); */
 }
 
 .icon {
   cursor: pointer;
+  color: var(--highlight-color);
 }
 
 .icon:hover {

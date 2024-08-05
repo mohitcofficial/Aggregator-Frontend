@@ -5,6 +5,8 @@ import { Toaster } from "react-hot-toast";
 import TawkToChat from "@/utils/TalkToChat";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import WhatsappSticker from "@/components/items/WhatsappSticker";
+import NextTopLoader from "nextjs-toploader";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -76,7 +78,8 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-
+        <NextTopLoader color="#fcab14" />
+        <WhatsappSticker />
         {children}
       </body>
     </html>
