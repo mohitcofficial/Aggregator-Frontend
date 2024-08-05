@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        <NextTopLoader color="#fcab14" />
+        <NextTopLoader color="#fcab14" showSpinner={false} />
         <WhatsappSticker />
         {children}
       </body>

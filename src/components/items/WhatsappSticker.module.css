@@ -16,10 +16,21 @@
   box-shadow: 0 0 5px gray;
   z-index: 5;
   cursor: pointer;
+  transition: background-color 200ms ease-in-out;
 }
 
 .whatsapp:hover {
   box-shadow: 0 0 10px gray;
+  background-color: #25d366;
+}
+
+.whatsapp:hover .icon {
+  color: white;
+}
+
+.icon {
+  transition: color 200ms ease-in-out;
+  color: #25d366;
 }
 
 @media (max-width: 1275px) and (min-width: 1001px) {

@@ -10,7 +10,7 @@ function WhatsappSticker() {
       rel="noopener noreferrer"
       className={classes.whatsapp}
     >
-      <WhatsAppIcon sx={{ color: "#25d366", fontSize: "40px" }} />
+      <WhatsAppIcon className={classes.icon} sx={{ fontSize: "40px" }} />
     </a>
   );
 }
