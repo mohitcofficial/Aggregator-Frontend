@@ -1,13 +1,13 @@
 "use client";
-import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import XIcon from "@mui/icons-material/X";
 import classes from "./ContactViaSticker.module.css";
 
 function ContactViaSticker() {
   const fontSize = { xs: 24, sm: 26, md: 30, lg: 30 };
+  const fontSize2 = { xs: 18, sm: 20, md: 24, lg: 24 };
   const handleClick = (url) => {
     return () => {
       window.open(url, "_blank");
@@ -36,10 +36,10 @@ function ContactViaSticker() {
         className={classes.icon}
         sx={{ fontSize: fontSize, color: "#0072b1 " }}
       />
-      <TwitterIcon
+      <XIcon
         onClick={handleClick("https://x.com/virtualxcel")}
         className={classes.icon}
-        sx={{ fontSize: fontSize, color: "#00acee" }}
+        sx={{ fontSize: fontSize2, color: "#000" }}
       />
     </div>
   );

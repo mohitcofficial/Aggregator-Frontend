@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import XIcon from "@mui/icons-material/X";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import classes from "./Footer.module.css";
@@ -63,10 +63,10 @@ function Footer() {
               className={classes.icon}
               sx={{ fontSize: 22 }}
             />
-            <TwitterIcon
+            <XIcon
               onClick={handleInternalClick("https://x.com/virtualxcel")}
               className={classes.icon}
-              sx={{ fontSize: 22 }}
+              sx={{ fontSize: 18 }}
             />
           </div>
         </div>

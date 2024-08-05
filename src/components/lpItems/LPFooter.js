@@ -5,7 +5,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useRouter } from "next/navigation";
@@ -49,7 +49,7 @@ function LPFooter() {
               <FacebookIcon className={classes.icon} sx={{ fontSize: 22 }} />
               <InstagramIcon className={classes.icon} sx={{ fontSize: 22 }} />
               <LinkedInIcon className={classes.icon} sx={{ fontSize: 22 }} />
-              <TwitterIcon className={classes.icon} sx={{ fontSize: 22 }} />
+              <XIcon className={classes.icon} sx={{ fontSize: 18 }} />
             </div>
           </CustomModal>
         </div>
@@ -84,12 +84,6 @@ function LPFooter() {
           </div>
         </div>
       </div>
-      {/* <div className={classes.container2}>
-        <div className={classes.bottomLeft}>
-          Copyright © 2023, UNITY Cowork. All Rights Reserved
-        </div>
-        <div className={classes.bottomRight}></div>
-      </div> */}
     </div>
   );
 }
