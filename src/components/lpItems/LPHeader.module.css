@@ -76,16 +76,28 @@
 
 .listItem {
   margin: 0 12px;
-  padding: 4px 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   font-size: 14px;
-  column-gap: 8px;
   letter-spacing: 1.05px;
   color: white;
   color: var(--highlight-color);
+  column-gap: 8px;
+}
+
+.aTag {
+  padding: 4px 8px;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.listItem:hover {
+  border-bottom: 2px solid #fff;
 }
 
 .listItem.active {
@@ -144,6 +156,9 @@
 @media (max-width: 600px) {
   .navbar {
     height: 100px;
+  }
+  .listItem:hover {
+    border-bottom: 1px solid #fff;
   }
 
   .navContainer {

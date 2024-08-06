@@ -84,23 +84,27 @@ function LPHeader() {
 
         <ul className={classes.navlist}>
           <li className={`${classes.listItem}`}>
-            <EmailIcon
-              sx={{
-                color: "#FCAB14",
-                fontSize: { xs: 16, sm: 18, md: 20, lg: 22 },
-              }}
-            />
-            sales@virtualxcel.in
+            <a href="Mailto:sales@virtualxcel.in" className={classes.aTag}>
+              <EmailIcon
+                sx={{
+                  color: "#FCAB14",
+                  fontSize: { xs: 16, sm: 18, md: 20, lg: 22 },
+                }}
+              />
+              sales@virtualxcel.in
+            </a>
           </li>
           <p style={{ color: "white", fontSize: "28px" }}>|</p>
           <li className={`${classes.listItem}`}>
-            <CallIcon
-              sx={{
-                color: "#FCAB14",
-                fontSize: { xs: 16, sm: 18, md: 20, lg: 22 },
-              }}
-            />
-            +91 9871001079
+            <a className={classes.aTag} href="Tel:09871001079">
+              <CallIcon
+                sx={{
+                  color: "#FCAB14",
+                  fontSize: { xs: 16, sm: 18, md: 20, lg: 22 },
+                }}
+              />
+              +91 9871001079
+            </a>
           </li>
         </ul>
       </div>

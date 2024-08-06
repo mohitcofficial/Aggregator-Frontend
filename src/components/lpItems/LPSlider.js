@@ -1,43 +1,61 @@
 "use client";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
+import Image from "next/image";
 import { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import AhemdabadImage from "../../../public/images/Ahemdabad/Ahemdabad.jpeg";
 import BangaloreImage from "../../../public/images/Bangalore/Bangalore.jpeg";
 import DelhiImage from "../../../public/images/Delhi.jpg";
 import HaryanaImage from "../../../public/images/Gurgaon/Gurgaon.jpg";
 import KolkataImage from "../../../public/images/Kolkata/Kolkata.jpg";
 import MaharashtraImage from "../../../public/images/Mumbai/Mumbai.jpg";
 import NoidaImage from "../../../public/images/Noida/Noida2.jpeg";
-import classes from "./LPSlider.module.css";
-import Image from "next/image";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import CustomModal from "../Modal";
 import ConnaughtPlaceImage from "../../../public/images/services/Delhi/ConnaughtPlace.jpeg";
+import CustomModal from "../Modal";
+import classes from "./LPSlider.module.css";
 
-import NehruPlaceImage from "../../../public/images/services/Delhi/NehruPlace.jpeg";
-import LajpatNagarImage from "../../../public/images/services/Delhi/LajpatNagar.jpeg";
-import PitampuraImage from "../../../public/images/services/Delhi/Pitampura.jpeg";
 import DwarkaImage from "../../../public/images/services/Delhi/Dwarka.jpeg";
-import SaketImage from "../../../public/images/services/Delhi/Saket.jpg";
+import LajpatNagarImage from "../../../public/images/services/Delhi/LajpatNagar.jpeg";
+import NehruPlaceImage from "../../../public/images/services/Delhi/NehruPlace.jpeg";
+import PitampuraImage from "../../../public/images/services/Delhi/Pitampura.jpeg";
 import RohiniImage from "../../../public/images/services/Delhi/Rohini.jpg";
+import SaketImage from "../../../public/images/services/Delhi/Saket.jpg";
+import LPLocationsModal from "./LPLocationsModal";
 
-function LPSlider({ name = "all" }) {
+function LPSlider({ name = "India" }) {
   var settings = {
     arrows: false,
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1200,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
         },
@@ -46,73 +64,78 @@ function LPSlider({ name = "all" }) {
   };
   const sliderRef = useRef(null);
   const data = {
-    all: [
+    India: [
       {
         image: DelhiImage,
         name: "Delhi",
-        price: 999,
+        price: 799,
       },
       {
         image: HaryanaImage,
         name: "Gurgaon",
-        price: 999,
+        price: 799,
       },
       {
         image: NoidaImage,
         name: "Noida",
-        price: 999,
+        price: 799,
       },
       {
         image: BangaloreImage,
         name: "Bangalore",
-        price: 999,
-      },
-      {
-        image: KolkataImage,
-        name: "Kolkata",
-        price: 999,
+        price: 799,
       },
       {
         image: MaharashtraImage,
         name: "Mumbai",
-        price: 999,
+        price: 799,
+      },
+      {
+        image: KolkataImage,
+        name: "Kolkata",
+        price: 799,
+      },
+      {
+        image: AhemdabadImage,
+        name: "Ahemdabad",
+        price: 799,
       },
     ],
     Delhi: [
       {
         image: SaketImage,
         name: "Saket",
-        price: 999,
+        price: 799,
       },
       {
         image: NehruPlaceImage,
         name: "Nehru Place",
-        price: 999,
+        price: 799,
       },
       {
         image: ConnaughtPlaceImage,
         name: "Connaught Place",
-        price: 999,
+        price: 799,
       },
       {
         image: RohiniImage,
         name: "Rohini",
-        price: 999,
+        price: 799,
       },
       {
         image: PitampuraImage,
         name: "Pitampura",
-        price: 999,
+        price: 799,
       },
       {
         image: DwarkaImage,
         name: "Dwarka",
-        price: 999,
+        price: 799,
       },
       {
         image: LajpatNagarImage,
         name: "Lajpat Nagar",
-        price: 999,
+        price: 799,
       },
     ],
   };
@@ -121,15 +144,10 @@ function LPSlider({ name = "all" }) {
   return (
     <div className={classes.container}>
       <h2 className={classes.heading}>
-        Get registered accross
-        <span>Trending Locations</span>
+        Most
+        <span>Prefered Locations</span>
+        in {name}
       </h2>
-      {/* <div
-        onClick={() => sliderRef?.current?.slickPrev()}
-        className={classes.prevSlideButton}
-      >
-        <ArrowBackIosIcon sx={{ fontSize: fontSize, padding: "8px" }} />
-      </div> */}
       <div className={classes.innerContainer}>
         <div className={classes.rightBox}>
           <Slider ref={sliderRef} {...settings}>
@@ -148,10 +166,8 @@ function LPSlider({ name = "all" }) {
                     <p className={classes.name}>{item.name}</p>
                     <p className={classes.text}>
                       Starting at
-                      <span>
-                        <CurrencyRupeeIcon
-                          sx={{ fontSize: fontSize2, marginTop: "8px" }}
-                        />
+                      <span className={classes.price}>
+                        <CurrencyRupeeIcon sx={{ fontSize: fontSize2 }} />
                         {item.price}
                       </span>
                     </p>
@@ -162,20 +178,14 @@ function LPSlider({ name = "all" }) {
           </Slider>
         </div>
       </div>
-      {/* <div
-        onClick={() => sliderRef?.current?.slickNext()}
-        className={classes.nextSlideButton}
-      >
-        <ArrowForwardIosIcon sx={{ fontSize: fontSize, padding: "8px" }} />
-      </div> */}
 
       <div>
-        <CustomModal>
+        <LPLocationsModal>
           <button className={classes.visitAllButton}>
             Visit all Virtual Office locations
             <ArrowForwardIcon sx={{ fontSize: fontSize }} />
           </button>
-        </CustomModal>
+        </LPLocationsModal>
       </div>
     </div>
   );
