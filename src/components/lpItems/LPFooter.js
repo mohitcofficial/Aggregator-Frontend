@@ -35,38 +35,37 @@ function LPFooter() {
             </div>
           </div>
           <div className={classes.slogan}>Collaborate. Create. Cowork.</div>
-          <CustomModal>
-            <div className={classes.handlesLink}>
-              <a
-                href="https://www.facebook.com/profile.php?id=61562676830223"
-                target="_blank"
-                className={classes.icon}
-              >
-                <FacebookIcon sx={{ fontSize: 22 }} />
-              </a>
-              <a
-                href="https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
-                target="_blank"
-                className={classes.icon}
-              >
-                <InstagramIcon sx={{ fontSize: 22 }} />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/virtualxcel-solutions"
-                target="_blank"
-                className={classes.icon}
-              >
-                <LinkedInIcon sx={{ fontSize: 22 }} />
-              </a>
-              <a
-                href="https://x.com/virtualxcel"
-                target="_blank"
-                className={classes.icon}
-              >
-                <XIcon sx={{ fontSize: 18 }} />
-              </a>
-            </div>
-          </CustomModal>
+
+          <div className={classes.handlesLink}>
+            <a
+              href="https://www.facebook.com/profile.php?id=61562676830223"
+              target="_blank"
+              className={classes.icon}
+            >
+              <FacebookIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://www.instagram.com/virtualxcel?igsh=MThmaWdyZHI1emtvOA=="
+              target="_blank"
+              className={classes.icon}
+            >
+              <InstagramIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/virtualxcel-solutions"
+              target="_blank"
+              className={classes.icon}
+            >
+              <LinkedInIcon sx={{ fontSize: 22 }} />
+            </a>
+            <a
+              href="https://x.com/virtualxcel"
+              target="_blank"
+              className={classes.icon}
+            >
+              <XIcon sx={{ fontSize: 18 }} />
+            </a>
+          </div>
         </div>
         <div className={`${classes.box2} ${classes.box1}`}>
           <div className={classes.heading}>Connect with us</div>
