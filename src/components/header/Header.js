@@ -130,7 +130,6 @@ function Header({ dark = false }) {
             } ${classes.listItemwithDropdown}`}
             onClick={() => {
               setActiveNavItem("virtual-offices");
-              // router.push("/virtual-offices");
             }}
             onMouseEnter={() => setDropDownActive(true)}
             onMouseLeave={() => setDropDownActive(false)}
@@ -384,12 +383,17 @@ function Header({ dark = false }) {
           onClick={() => {
             setActiveNavItem("home");
             setHamMenuOpen(false);
-            router.push("/");
           }}
           className={`${classes.mobileListItem}
               ${activeNavItem === "home" ? classes.active : ""}`}
         >
-          Home
+          <Link
+            className={classes.aTag2}
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="/"
+          >
+            Home
+          </Link>
         </li>
         <li
           className={`${classes.mobileListItem} ${
@@ -398,30 +402,39 @@ function Header({ dark = false }) {
           onClick={() => {
             setActiveNavItem("virtual-offices");
             setHamMenuOpen(false);
-            router.push("/virtual-offices");
           }}
           style={{ borderBottom: "none" }}
         >
-          Virtual Offices
+          <Link
+            className={classes.aTag2}
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="/virtual-offices"
+          >
+            Virtual Offices
+          </Link>
         </li>
         <ul className={classes.dropMobileList}>
           <li
             onClick={(event) => {
               handleDropDownClick(event);
               setActiveNavItem("business-registration");
-              router.push("/business-registration");
               setHamMenuOpen(false);
             }}
             className={`${classes.mobileDropListItem} ${
               activeNavItem === "business-registration" ? classes.active : ""
             }`}
           >
-            Business Registration
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/business-registration"
+            >
+              Business Registration
+            </Link>
           </li>
           <li
             onClick={(event) => {
               handleDropDownClick(event);
-              router.push("/gst-registration");
               setActiveNavItem("gst-registration");
               setHamMenuOpen(false);
             }}
@@ -429,7 +442,13 @@ function Header({ dark = false }) {
               activeNavItem === "gst-registration" ? classes.active : ""
             }`}
           >
-            GST Registration
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/gst-registration"
+            >
+              GST Registration
+            </Link>
           </li>
           <li
             onClick={(event) => {
@@ -442,7 +461,13 @@ function Header({ dark = false }) {
               activeNavItem === "mailing-address" ? classes.active : ""
             }`}
           >
-            Mailing Address
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/mailing-address"
+            >
+              Mailing Address
+            </Link>
           </li>
         </ul>
 
@@ -453,29 +478,38 @@ function Header({ dark = false }) {
           onClick={() => {
             setHamMenuOpen(false);
             setActiveNavItem("coworking-spaces");
-            router.push("/coworking-spaces");
           }}
         >
-          Coworking Spaces
+          <Link
+            className={classes.aTag2}
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="/coworking-spaces"
+          >
+            Coworking Spaces
+          </Link>
         </li>
         <ul className={classes.dropMobileList}>
           <li
             onClick={(event) => {
               handleDropDownClick(event);
               setActiveNavItem("day-pass");
-              router.push("/day-pass");
               setHamMenuOpen(false);
             }}
             className={`${classes.mobileDropListItem} ${
               activeNavItem === "day-pass" ? classes.active : ""
             }`}
           >
-            Day Pass
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/day-pass"
+            >
+              Day Pass
+            </Link>
           </li>
           <li
             onClick={(event) => {
               handleDropDownClick(event);
-              router.push("/cabins");
               setActiveNavItem("cabins");
               setHamMenuOpen(false);
             }}
@@ -483,20 +517,31 @@ function Header({ dark = false }) {
               activeNavItem === "cabins" ? classes.active : ""
             }`}
           >
-            Cabins
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/cabins"
+            >
+              Cabins
+            </Link>
           </li>
           <li
             onClick={(event) => {
               handleDropDownClick(event);
               setActiveNavItem("desk");
-              router.push("/desk");
               setHamMenuOpen(false);
             }}
             className={`${classes.mobileDropListItem} ${
               activeNavItem === "desk" ? classes.active : ""
             }`}
           >
-            Desk
+            <Link
+              className={classes.aTag3}
+              style={{ textDecoration: "none", color: "inherit" }}
+              href="/desk"
+            >
+              Desk
+            </Link>
           </li>
         </ul>
         <li
@@ -505,23 +550,33 @@ function Header({ dark = false }) {
           }`}
           onClick={() => {
             setActiveNavItem("partnership");
-            router.push("/partnership");
             setHamMenuOpen(false);
           }}
         >
-          Partnership
+          <Link
+            className={classes.aTag2}
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="/partnership"
+          >
+            Partnership
+          </Link>
         </li>
         <li
           onClick={() => {
             setActiveNavItem("contact");
             setHamMenuOpen(false);
-            router.push("/contact-us");
           }}
           className={`${classes.mobileListItem} ${
             activeNavItem === "contact" ? classes.active : ""
           }`}
         >
-          Contact
+          <Link
+            className={classes.aTag2}
+            style={{ textDecoration: "none", color: "inherit" }}
+            href="/contact-us"
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

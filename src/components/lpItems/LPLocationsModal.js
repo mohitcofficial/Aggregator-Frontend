@@ -5,7 +5,6 @@ import React from "react";
 import classes from "../LocationsModal.module.css";
 import CloseIcon from "@mui/icons-material/Close";
 import CustomModal from "../Modal";
-import { m } from "framer-motion";
 
 const style = {
   position: "absolute",
@@ -75,8 +74,8 @@ export default function LPLocationsModal({ children }) {
           </div>
           <h2 className={classes.heading}>Premium Locations</h2>
           <div className={classes.content}>
-            {premuimLocations.map((location) => (
-              <div>
+            {premuimLocations.map((location, index) => (
+              <div key={index}>
                 <CustomModal>
                   <div className={classes.button}>{location}</div>
                 </CustomModal>
@@ -85,8 +84,8 @@ export default function LPLocationsModal({ children }) {
           </div>
           <h2 className={classes.heading}>Other Locations</h2>
           <div className={classes.content}>
-            {otherLocations.map((location) => (
-              <div>
+            {otherLocations.map((location, index) => (
+              <div key={index}>
                 <CustomModal>
                   <div className={classes.button2}>{location}</div>
                 </CustomModal>
