@@ -5,12 +5,17 @@ import Banner5 from "@/components/banner/Banner5";
 import ScrollParallax from "@/components/animations/ScrollParallax";
 import PriceCard from "@/components/items/PriceCard";
 import { BoxData2 } from "../data/PriceCardData";
-import GSTBenefits from "@/components/items/GSTBenefits";
 import PremuimLocations from "@/components/items/PremiumLocations";
-import ReviewSlider from "@/components/slider/ReviewSlider";
-import FrequentQuestions from "@/components/frequent-questions/FrequentQuestions";
 import VirtualBenefits from "@/components/items/VirtualBenefits";
 import WavyBackground3 from "@/components/background/WavyBackground3";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Professional Mailing Address Services | Virtualxcel",

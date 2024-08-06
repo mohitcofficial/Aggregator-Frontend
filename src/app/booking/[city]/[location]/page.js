@@ -2,7 +2,14 @@ import Component from "@/components/dynamic-page-data/Component";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import classes from "./page.module.css";
-import ReviewSlider from "@/components/slider/ReviewSlider";
+import dynamic from "next/dynamic";
+// import ReviewSlider from "@/components/slider/ReviewSlider";
+const ReviewSlider = dynamic(
+  () => import("../../../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 const data = [
   {

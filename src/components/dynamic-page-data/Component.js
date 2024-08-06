@@ -1,10 +1,18 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import classes from "./Component.module.css";
-import LocationSlider2 from "../slider/LocationSlider2";
 import Form from "./Form";
 import PlanSlider from "../slider/PlanSlider";
 import { data } from "../../app/data/LocationData";
+
+import LocationSlider2 from "../slider/LocationSlider2";
+// import dynamic from "next/dynamic";
+// const LocationSlider2 = dynamic(
+//   () => import("../../components/slider/LocationSlider2"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 const cityMap = {
   Delhi: "New Delhi",

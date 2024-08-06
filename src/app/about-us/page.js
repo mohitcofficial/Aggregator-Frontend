@@ -4,8 +4,16 @@ import classes from "./page.module.css";
 import ContactViaSticker from "@/components/items/ContactViaSticker";
 import PrivacyPolicyImage from "../../../public/images/PrivacyPolicy.jpeg";
 import Image from "next/image";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import { WebsiteURLs } from "../data/Links";
+
+import dynamic from "next/dynamic";
+// import ReviewSlider from "@/components/slider/ReviewSlider";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 function page() {
   return (

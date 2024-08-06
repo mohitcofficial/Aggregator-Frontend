@@ -7,10 +7,17 @@ import PriceCard from "@/components/items/PriceCard";
 import ScrollParallax from "@/components/animations/ScrollParallax";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import PremuimLocations from "@/components/items/PremiumLocations";
 import BusinessBenefits from "@/components/items/BusinessBenefits";
 import WavyBackground3 from "@/components/background/WavyBackground3";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Best Business Registration Services",

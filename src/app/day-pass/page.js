@@ -1,10 +1,17 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import PremuimLocations from "@/components/items/PremiumLocations";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import classes from "./page.module.css";
 import Banner5 from "@/components/banner/Banner5";
 import WhyUs from "@/components/items/WhyUs";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Experience Flexibility with Our Day Passes  | Virtualxcel",

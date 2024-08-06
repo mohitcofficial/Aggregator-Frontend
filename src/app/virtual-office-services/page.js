@@ -5,13 +5,24 @@ import LPGuarantee from "@/components/lpItems/LPGuarantee";
 import LPHeader from "@/components/lpItems/LPHeader";
 import LPPriceItem from "@/components/lpItems/LPPriceItem";
 import LPServices from "@/components/lpItems/LPServices";
-import LPSlider from "@/components/lpItems/LPSlider";
 import CustomModal from "@/components/Modal";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import Image from "next/image";
 import LP1 from "../../../public/images/LP1.jpg";
 import classes from "./page.module.css";
+
+import dynamic from "next/dynamic";
+// import LPSlider from "@/components/lpItems/LPSlider";
+// import ReviewSlider from "@/components/slider/ReviewSlider";
+const LPSlider = dynamic(() => import("../../components/lpItems/LPSlider"), {
+  ssr: false,
+});
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Best Virtual Offices & Business Addresses Across India",

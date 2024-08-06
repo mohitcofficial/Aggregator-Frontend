@@ -8,12 +8,19 @@ import ContactViaSticker from "@/components/items/ContactViaSticker";
 import NeedExpertPoster from "@/components/items/NeedExpertPoster";
 import PremiumLocations from "@/components/items/PremiumLocations";
 import PriceItem from "@/components/items/PriceItem";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Head from "next/head";
 import Link from "next/link";
 import classes from "./page.module.css";
 import WhyUs from "@/components/items/WhyUs";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Best Virtual Offices & Coworking Servies Pan India",

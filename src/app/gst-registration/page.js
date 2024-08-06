@@ -3,13 +3,20 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import React from "react";
 import classes from "./page.module.css";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import PremuimLocations from "@/components/items/PremiumLocations";
 import PriceCard from "@/components/items/PriceCard";
 import ScrollParallax from "@/components/animations/ScrollParallax";
 import { BoxData2 } from "../data/PriceCardData";
 import GSTBenefits from "@/components/items/GSTBenefits";
 import WavyBackground3 from "@/components/background/WavyBackground3";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Quick and Easy GST Registration Services | Virtualxcel",

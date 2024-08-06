@@ -1,9 +1,17 @@
 import React from "react";
 import classes from "./LocationCard.module.css";
-import LocationSlider from "../slider/LocationSlider";
 import BookButton from "@/utils/buttons/BookButton";
 import GetQuoteButton from "@/utils/buttons/GetQuoteButton";
 import CustomModal3 from "../Modal3";
+
+import LocationSlider from "../slider/LocationSlider";
+// import dynamic from "next/dynamic";
+// const LocationSlider = dynamic(
+//   () => import("../../components/slider/LocationSlider"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 function LocationCard({
   id,

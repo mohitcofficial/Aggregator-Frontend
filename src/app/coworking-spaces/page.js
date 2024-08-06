@@ -7,10 +7,17 @@ import Facilities from "@/components/items/Facilities";
 import NeedExpertPoster from "@/components/items/NeedExpertPoster";
 import WhyCoworking from "@/components/items/WhyCoworking";
 import WhyUs from "@/components/items/WhyUs";
-import ReviewSlider from "@/components/slider/ReviewSlider";
 import { coworkingCardDataArray } from "../data/CoworkingCardData";
 import { coworkingFacilities } from "../data/Facilities";
 import classes from "./page.module.css";
+
+import dynamic from "next/dynamic";
+const ReviewSlider = dynamic(
+  () => import("../../components/slider/ReviewSlider"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata = {
   title: "Coworking Spaces",
