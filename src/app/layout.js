@@ -14,6 +14,7 @@ const TawkToChat = dynamic(() => import("../utils/TalkToChat"), { ssr: false });
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata = {
