@@ -2,11 +2,12 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { Toaster } from "react-hot-toast";
-import TawkToChat from "@/utils/TalkToChat";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import WhatsappSticker from "@/components/items/WhatsappSticker";
 import NextTopLoader from "nextjs-toploader";
+import dynamic from "next/dynamic";
+const TawkToChat = dynamic(() => import("../utils/TalkToChat"), { ssr: false });
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -38,8 +39,9 @@ export default function RootLayout({ children }) {
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16609409855"
+          strategy="lazyOnLoad"
         />
-        <Script id="google-ads-gtag" strategy="afterInteractive">
+        <Script id="google-ads-gtag" strategy="lazyOnLoad">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -48,7 +50,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-16609409855');
           `}
         </Script>
-        <Script id="text-script" type="text/javascript">
+        <Script id="text-script" type="text/javascript" strategy="lazyOnLoad">
           {`
             (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
