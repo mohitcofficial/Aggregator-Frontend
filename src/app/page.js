@@ -1,4 +1,3 @@
-import ZoomParallax from "@/components/animations/ZoomParallax";
 import Banner from "@/components/banner/Banner";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -14,7 +13,14 @@ import Link from "next/link";
 import classes from "./page.module.css";
 import WhyUs from "@/components/items/WhyUs";
 
+// import ZoomParallax from "@/components/animations/ZoomParallax";
 import dynamic from "next/dynamic";
+const ZoomParallax = dynamic(
+  () => import("../components/animations/ZoomParallax"),
+  {
+    ssr: false,
+  }
+);
 const ReviewSlider = dynamic(
   () => import("../components/slider/ReviewSlider"),
   {
