@@ -191,16 +191,20 @@ function Footer() {
           <div className={classes.heading}>Connect with us</div>
 
           <div className={classes.option}>
-            <CallIcon
-              sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
-            />
-            <p className={classes.text}>+91 9871001079</p>
+            <a className={classes.aTag} href="Tel:09871001079">
+              <CallIcon
+                sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
+              />
+              <p className={classes.text}>+91 9871001079</p>
+            </a>
           </div>
           <div className={classes.option}>
-            <EmailIcon
-              sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
-            />
-            <p className={classes.text}>sales@virtualxcel.in</p>
+            <a href="Mailto:sales@virtualxcel.in" className={classes.aTag}>
+              <EmailIcon
+                sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
+              />
+              <p className={classes.text}>sales@virtualxcel.in</p>
+            </a>
           </div>
           <div className={classes.option2}>
             <div className={classes.text2} style={{ alignItems: "center" }}>

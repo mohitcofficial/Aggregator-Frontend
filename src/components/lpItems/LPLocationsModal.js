@@ -5,6 +5,7 @@ import React from "react";
 import classes from "../LocationsModal.module.css";
 import CloseIcon from "@mui/icons-material/Close";
 import CustomModal from "../Modal";
+import { m } from "framer-motion";
 
 const style = {
   position: "absolute",
@@ -25,6 +26,27 @@ export default function LPLocationsModal({ children }) {
   };
 
   const fontSize = { xs: 26, sm: 28, md: 30, lg: 32 };
+
+  const premuimLocations = [
+    "Delhi",
+    "Gurgaon",
+    "Noida",
+    "Bangalore",
+    "Mumbai",
+    "Chandigarh",
+    "Chennai",
+  ];
+  const otherLocations = [
+    "Hyderabad",
+    "Kolkata",
+    "Pune",
+    "Kochi",
+    "Kerala",
+    "Punjab",
+    "Gujarat",
+    "Talangana",
+    "Tamil Nadu",
+  ];
 
   return (
     <div>
@@ -53,74 +75,23 @@ export default function LPLocationsModal({ children }) {
           </div>
           <h2 className={classes.heading}>Premium Locations</h2>
           <div className={classes.content}>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Delhi</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Gurgaon</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Noida</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Bangalore</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Mumbai</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Chandigarh</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button}>Chennai</div>
-              </CustomModal>
-            </div>
+            {premuimLocations.map((location) => (
+              <div>
+                <CustomModal>
+                  <div className={classes.button}>{location}</div>
+                </CustomModal>
+              </div>
+            ))}
           </div>
           <h2 className={classes.heading}>Other Locations</h2>
           <div className={classes.content}>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Hyderabad</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Kolkata</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Pune</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Kochi</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Kerela</div>
-              </CustomModal>
-            </div>
-            <div>
-              <CustomModal>
-                <div className={classes.button2}>Punjab</div>
-              </CustomModal>
-            </div>
+            {otherLocations.map((location) => (
+              <div>
+                <CustomModal>
+                  <div className={classes.button2}>{location}</div>
+                </CustomModal>
+              </div>
+            ))}
           </div>
         </Box>
       </Modal>
