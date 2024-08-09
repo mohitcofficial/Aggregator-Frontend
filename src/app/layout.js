@@ -51,7 +51,11 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-16609409855');
           `}
         </Script>
-        <Script id="text-script" type="text/javascript" strategy="lazyOnLoad">
+        <Script
+          id="text-script"
+          type="text/javascript"
+          strategy="afterInteractive"
+        >
           {`
             (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
