@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
           src="https://www.googletagmanager.com/gtag/js?id=AW-16609409855"
           strategy="lazyOnLoad"
         />
-        <Script id="google-ads-gtag" strategy="lazyOnLoad">
+        <Script id="google-conversion-gtag" strategy="lazyOnLoad">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -70,6 +70,7 @@ export default function RootLayout({ children }) {
       <body
         className={poppins.className}
         style={{ width: "100%", maxWidth: "100%" }}
+        suppressHydrationWarning={true}
       >
         {<TawkToChat />}
         <Toaster position="bottom-center" reverseOrder={false} />
