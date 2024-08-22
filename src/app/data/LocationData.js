@@ -25,7 +25,7 @@ export const data = {
       url: "/booking/Delhi/Asaf-Ali.html",
     },
     {
-      id: "chhattarput",
+      id: "chhattarpur",
       name: "Chhattarpur",
       businessPrice: 12999,
       gstPrice: 11999,
@@ -480,14 +480,14 @@ export const data = {
       mailingPrice: 9999,
       url: "/booking/Gurgaon/Cyber-Park.html",
     },
-    {
-      id: "palmcourt",
-      name: "Palm Court",
-      businessPrice: 13999,
-      gstPrice: 13999,
-      mailingPrice: 9999,
-      url: "/booking/Gurgaon/Palm-Court.html",
-    },
+    // {
+    //   id: "palmcourt",
+    //   name: "Palm Court",
+    //   businessPrice: 13999,
+    //   gstPrice: 13999,
+    //   mailingPrice: 9999,
+    //   url: "/booking/Gurgaon/Palm-Court.html",
+    // },
   ],
   Punjab: [
     {

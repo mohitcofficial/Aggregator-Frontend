@@ -24,6 +24,20 @@ import MyTime2 from "../../../public/images/Delhi/Saket/MyTime2.jpeg";
 import MyTime3 from "../../../public/images/Delhi/Saket/MyTime3.jpeg";
 import MyTime4 from "../../../public/images/Delhi/Saket/MyTime4.jpeg";
 import MyTime5 from "../../../public/images/Delhi/Saket/MyTime5.jpeg";
+import AsafAliRd1 from "../../../public/images/Delhi/AsafAliRd/AsafAliRd1.jpeg";
+import AsafAliRd2 from "../../../public/images/Delhi/AsafAliRd/AsafAliRd2.jpeg";
+import AsafAliRd3 from "../../../public/images/Delhi/AsafAliRd/AsafAliRd3.jpg";
+import Chhattarpur1 from "../../../public/images/Delhi/Chhattarpur/Chhattarpur1.jpeg";
+import Chhattarpur2 from "../../../public/images/Delhi/Chhattarpur/Chhattarpur2.jpeg";
+import Chhattarpur3 from "../../../public/images/Delhi/Chhattarpur/Chhattarpur3.jpeg";
+import Chhattarpur4 from "../../../public/images/Delhi/Chhattarpur/Chhattarpur4.jpeg";
+import NehruPlace1 from "../../../public/images/Delhi/NehruPlace/NehruPlace1.jpg";
+import NehruPlace2 from "../../../public/images/Delhi/NehruPlace/NehruPlace2.jpg";
+import NehruPlace3 from "../../../public/images/Delhi/NehruPlace/NehruPlace3.jpg";
+import LaxmiNagar1 from "../../../public/images/Delhi/LaxmiNagar/LaxmiNagar1.jpg";
+import LaxmiNagar2 from "../../../public/images/Delhi/LaxmiNagar/LaxmiNagar2.jpg";
+import LaxmiNagar3 from "../../../public/images/Delhi/LaxmiNagar/LaxmiNagar3.jpg";
+import LaxmiNagar4 from "../../../public/images/Delhi/LaxmiNagar/LaxmiNagar4.jpg";
 import Verna2 from "../../../public/images/Goa/Verna/Verna2.jpg";
 import Verna3 from "../../../public/images/Goa/Verna/Verna3.jpg";
 import Verna5 from "../../../public/images/Goa/Verna/Verna5.jpg";
@@ -80,11 +94,42 @@ import iblueentertainment2 from "../../../public/images/Bangalore/iblueentertain
 import iblueentertainment3 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment3.jpg";
 import iblueentertainment4 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment4.jpg";
 import iblueentertainment5 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment5.jpg";
+import Sector431 from "../../../public/images/Gurgaon/Sector43/Sector431.webp";
+import Sector432 from "../../../public/images/Gurgaon/Sector43/Sector432.jpg";
+import Sector433 from "../../../public/images/Gurgaon/Sector43/Sector433.jpeg";
+import SohnaRoad1 from "../../../public/images/Gurgaon/SohnaRoad/SohnaRoad1.webp";
+import SohnaRoad2 from "../../../public/images/Gurgaon/SohnaRoad/SohnaRoad2.webp";
+import SohnaRoad3 from "../../../public/images/Gurgaon/SohnaRoad/SohnaRoad3.webp";
+import MGRoad1 from "../../../public/images/Gurgaon/MGRoad/MGRoad1.jpg";
+import MGRoad2 from "../../../public/images/Gurgaon/MGRoad/MGRoad2.png";
+import MGRoad3 from "../../../public/images/Gurgaon/MGRoad/MGRoad3.webp";
+import SushantLok1 from "../../../public/images/Gurgaon/SushantLok/SushantLok1.jpeg";
+import SushantLok2 from "../../../public/images/Gurgaon/SushantLok/SushantLok2.webp";
+import SushantLok3 from "../../../public/images/Gurgaon/SushantLok/SushantLok3.webp";
+import CyberPark1 from "../../../public/images/Gurgaon/CyberPark/CyberPark1.webp";
+import CyberPark2 from "../../../public/images/Gurgaon/CyberPark/CyberPark2.webp";
+import CyberPark3 from "../../../public/images/Gurgaon/CyberPark/CyberPark3.webp";
 import classes from "./LocationSlider.module.css";
 
 const images = {
+  //Delhi
   mytimecowork: [MyTime2, MyTime3, MyTime1, MyTime4, MyTime5],
   innove: [Innove2, Innove3, Innove4, Innove5, Innove6],
+  asafali: [AsafAliRd1, AsafAliRd2, AsafAliRd3],
+  chhattarpur: [Chhattarpur1, Chhattarpur2, Chhattarpur3, Chhattarpur4],
+  rajourigarden: [
+    RajouriGarden1,
+    RajouriGarden2,
+    RajouriGarden3,
+    RajouriGarden4,
+  ],
+  dwarka: [Dwarka1, Dwarka2, Dwarka3],
+  connaughtplace: [CP1, CP2, CP3, CP4, CP5],
+  okhla: [Okhla1, Okhla2, Okhla3, Okhla4, Okhla5],
+  lajpatnagar: [LajpatNagar1, LajpatNagar2, LajpatNagar3],
+  laxminagar: [LaxmiNagar1, LaxmiNagar2, LaxmiNagar3, LaxmiNagar4],
+  nehruplace: [NehruPlace1, NehruPlace2, NehruPlace3],
+
   havlhitech: [Anna5, Anna2, Anna3, Anna6, Anna8],
   workyard: [Industrial6, Industrial7, Industrial5, Industrial1, Industrial4],
   iblueentertainment: [],
@@ -92,7 +137,23 @@ const images = {
   b2bbusinesscentre: [],
   wisdom: [],
   workyardPunjab: [],
-  letsWork: [],
+  //gurgaon
+  letsWork: [Sector431, Sector432, Sector433],
+  cybercity: [CyberCity1, CyberCity2, CyberCity3, CyberCity4],
+  udyogvihar: [UdyogVihar1, UdyogVihar2, UdyogVihar3, UdyogVihar4],
+  golfcourseroad: [
+    GolfCourseRoad1,
+    GolfCourseRoad2,
+    GolfCourseRoad3,
+    GolfCourseRoad4,
+    GolfCourseRoad5,
+    GolfCourseRoad6,
+  ],
+  sohnaroad: [SohnaRoad1, SohnaRoad2, SohnaRoad3],
+  mgroad: [MGRoad1, MGRoad2, MGRoad3],
+  sushantlok: [SushantLok1, SushantLok2, SushantLok3],
+  cyberpark: [CyberPark1, CyberPark2, CyberPark3],
+  palmcourt: [],
   kcancoworking: [
     MukherjeeRd3,
     MukherjeeRd5,
@@ -107,26 +168,6 @@ const images = {
     iblueentertainment4,
     iblueentertainment3,
     iblueentertainment5,
-  ],
-  dwarka: [Dwarka1, Dwarka2, Dwarka3],
-  rajourigarden: [
-    RajouriGarden1,
-    RajouriGarden2,
-    RajouriGarden3,
-    RajouriGarden4,
-  ],
-  connaughtplace: [CP1, CP2, CP3, CP4, CP5],
-  okhla: [Okhla1, Okhla2, Okhla3, Okhla4, Okhla5],
-  lajpatnagar: [LajpatNagar1, LajpatNagar2, LajpatNagar3],
-  cybercity: [CyberCity1, CyberCity2, CyberCity3, CyberCity4],
-  udyogvihar: [UdyogVihar1, UdyogVihar2, UdyogVihar3, UdyogVihar4],
-  golfcourseroad: [
-    GolfCourseRoad1,
-    GolfCourseRoad2,
-    GolfCourseRoad3,
-    GolfCourseRoad4,
-    GolfCourseRoad5,
-    GolfCourseRoad6,
   ],
   sector3: [
     Sector31,
