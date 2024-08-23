@@ -51,6 +51,8 @@ import CP2 from "../../../public/images/Delhi/CP/CP2.jpg";
 import CP3 from "../../../public/images/Delhi/CP/CP3.jpg";
 import CP4 from "../../../public/images/Delhi/CP/CP4.jpg";
 import CP5 from "../../../public/images/Delhi/CP/CP5.jpg";
+import Sector21 from "../../../public/images/Noida/Sector2/Sector21.png";
+import Sector22 from "../../../public/images/Noida/Sector2/Sector22.png";
 import Sector31 from "../../../public/images/Noida/Sector3/Sector31.jpg";
 import Sector32 from "../../../public/images/Noida/Sector3/Sector32.jpg";
 import Sector33 from "../../../public/images/Noida/Sector3/Sector33.jpg";
@@ -58,6 +60,20 @@ import Sector34 from "../../../public/images/Noida/Sector3/Sector34.jpg";
 import Sector35 from "../../../public/images/Noida/Sector3/Sector35.jpg";
 import Sector36 from "../../../public/images/Noida/Sector3/Sector36.jpg";
 import Sector37 from "../../../public/images/Noida/Sector3/Sector37.jpg";
+import Sector151 from "../../../public/images/Noida/Sector15/Sector151.jpg";
+import Sector152 from "../../../public/images/Noida/Sector15/Sector152.jpg";
+import Sector153 from "../../../public/images/Noida/Sector15/Sector153.jpg";
+import Sector621 from "../../../public/images/Noida/Sector62/Sector621.jpeg";
+import Sector622 from "../../../public/images/Noida/Sector62/Sector622.jpeg";
+import Sector631 from "../../../public/images/Noida/Sector63/Sector631.webp";
+import Sector632 from "../../../public/images/Noida/Sector63/Sector632.webp";
+import Sector633 from "../../../public/images/Noida/Sector63/Sector633.png";
+import Sector1321 from "../../../public/images/Noida/Sector132/Sector1321.jpeg";
+import Sector1322 from "../../../public/images/Noida/Sector132/Sector1322.jpeg";
+import Sector191 from "../../../public/images/Noida/Sector19/Sector191.jpg";
+import Sector192 from "../../../public/images/Noida/Sector19/Sector192.jpg";
+import Sector161 from "../../../public/images/Noida/Sector16/Sector161.jpeg";
+import Sector162 from "../../../public/images/Noida/Sector16/Sector162.webp";
 import Okhla1 from "../../../public/images/Delhi/Okhla/Okhla1.jpg";
 import Okhla2 from "../../../public/images/Delhi/Okhla/Okhla2.jpg";
 import Okhla3 from "../../../public/images/Delhi/Okhla/Okhla3.jpg";
@@ -169,6 +185,7 @@ const images = {
     iblueentertainment3,
     iblueentertainment5,
   ],
+  //Noida
   sector3: [
     Sector31,
     Sector32,
@@ -178,6 +195,13 @@ const images = {
     Sector36,
     Sector37,
   ],
+  sector2: [Sector21, Sector22],
+  sector15: [Sector151, Sector152, Sector153],
+  sector19: [Sector191, Sector192],
+  sector16: [Sector161, Sector162],
+  sector62: [Sector621, Sector622],
+  sector63: [Sector633, Sector632, Sector631],
+  sector132: [Sector1321, Sector1322],
 };
 
 function LocationSlider({ name = "mytimecowork", id = "mytimecowork" }) {
