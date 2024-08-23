@@ -16,6 +16,131 @@ const style = {
   p: 4,
 };
 
+const premiumLocationsMap = [
+  {
+    name: "Delhi",
+    url: "/virtual-offices/delhi",
+  },
+  {
+    name: "Gurgaon",
+    url: "/virtual-offices/gurgaon",
+  },
+  {
+    name: "Noida",
+    url: "/virtual-offices/noida",
+  },
+  {
+    name: "Bangalore",
+    url: "/virtual-offices/bangalore",
+  },
+  {
+    name: "Mumbai",
+    url: "/virtual-offices/mumbai",
+  },
+  {
+    name: "Chandigarh",
+    url: "/virtual-offices/chandigarh",
+  },
+  {
+    name: "Chennai",
+    url: "/virtual-offices/chennai",
+  },
+];
+const otherLocationsMap = [
+  {
+    name: "Hyderabad",
+    url: "/virtual-offices/hyderabad",
+  },
+  {
+    name: "Kolkata",
+    url: "/virtual-offices/kolkata",
+  },
+  {
+    name: "Pune",
+    url: "/virtual-offices/pune",
+  },
+  {
+    name: "Kochi",
+    url: "/virtual-offices/kochi",
+  },
+  {
+    name: "Kerela",
+    url: "/virtual-offices/kerela",
+  },
+  {
+    name: "Punjab",
+    url: "/virtual-offices/punjab",
+  },
+  {
+    name: "Punjab",
+    url: "/virtual-offices/punjab",
+  },
+  {
+    name: "Agra",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Coimbatore",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Dehradun",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Goa",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Ghaziabad",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Indore",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Jalandhar",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Jamshedpur",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Kanpur",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Lucknow",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Nagpur",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Patna",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Raipur",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Ranchi",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Vishakhapatnam",
+    url: "/virtual-offices/",
+  },
+  {
+    name: "Zirakpur",
+    url: "/virtual-offices/",
+  },
+];
+
 export default function LocationsModal({ children }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -52,48 +177,19 @@ export default function LocationsModal({ children }) {
           </div>
           <h2 className={classes.heading}>Premium Locations</h2>
           <div className={classes.content}>
-            <a className={classes.button} href="/virtual-offices/delhi">
-              Delhi
-            </a>
-            <a className={classes.button} href="/virtual-offices/gurgaon">
-              Gurgaon
-            </a>
-            <a className={classes.button} href="/virtual-offices/noida">
-              Noida
-            </a>
-            <a className={classes.button} href="/virtual-offices/bangalore">
-              Bangalore
-            </a>
-            <a className={classes.button} href="/virtual-offices/mumbai">
-              Mumbai
-            </a>
-            <a className={classes.button} href="/virtual-offices/chandigarh">
-              Chandigarh
-            </a>
-            <a className={classes.button} href="/virtual-offices/chennai">
-              Chennai
-            </a>
+            {premiumLocationsMap.map((item, index) => (
+              <a key={index} className={classes.button} href={item.url}>
+                {item.name}
+              </a>
+            ))}
           </div>
           <h2 className={classes.heading}>Other Locations</h2>
           <div className={classes.content}>
-            <a className={classes.button2} href="/virtual-offices/hyderabad">
-              Hyderabad
-            </a>
-            <a className={classes.button2} href="/virtual-offices/kolkata">
-              Kolkata
-            </a>
-            <a className={classes.button2} href="/virtual-offices/pune">
-              Pune
-            </a>
-            <a className={classes.button2} href="/virtual-offices/kochi">
-              Kochi
-            </a>
-            <a className={classes.button2} href="/virtual-offices/kerela">
-              Kerela
-            </a>
-            <a className={classes.button2} href="/virtual-offices/punjab">
-              Punjab
-            </a>
+            {otherLocationsMap.map((item, index) => (
+              <a key={index} className={classes.button2} href={item.url}>
+                {item.name}
+              </a>
+            ))}
           </div>
         </Box>
       </Modal>
