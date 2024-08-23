@@ -59,6 +59,20 @@ function page() {
         </div>
 
         <ContactForm2 />
+
+        <div className={classes.mapContainer}>
+          <span className={classes.heading2}>Connect with us physically</span>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.4087973325654!2d77.2177403753315!3d28.52742987572236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce18b0950c389%3A0xebbb242665d51b64!2sSalcon%20Rasvilas!5e0!3m2!1sen!2sin!4v1724412053664!5m2!1sen!2sin"
+            className={classes.frame}
+            // width="600"
+            // height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
       <Footer />
     </>
