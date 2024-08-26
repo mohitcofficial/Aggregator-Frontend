@@ -129,6 +129,29 @@ import Ganganagar1 from "../../../public/images/Bangalore/Ganganagar/Ganganagar1
 import Ganganagar2 from "../../../public/images/Bangalore/Ganganagar/Ganganagar2.jpeg";
 import Ganganagar3 from "../../../public/images/Bangalore/Ganganagar/Ganganagar3.jpg";
 import Ganganagar4 from "../../../public/images/Bangalore/Ganganagar/Ganganagar4.jpg";
+import BandraWest1 from "../../../public/images/Mumbai/BandraWest/BandraWest1.jpg";
+import BandraWest2 from "../../../public/images/Mumbai/BandraWest/BandraWest2.jpg";
+import BandraWest3 from "../../../public/images/Mumbai/BandraWest/BandraWest3.jpg";
+import Andheri1 from "../../../public/images/Mumbai/Andheri/Andheri1.jpeg";
+import Andheri2 from "../../../public/images/Mumbai/Andheri/Andheri2.jpg";
+import Andheri3 from "../../../public/images/Mumbai/Andheri/Andheri3.jpg";
+import BandraKurlaComplex1 from "../../../public/images/Mumbai/BandraKurlaComplex/BandraKurlaComplex1.jpg";
+import BandraKurlaComplex2 from "../../../public/images/Mumbai/BandraKurlaComplex/BandraKurlaComplex2.jpg";
+import BandraKurlaComplex3 from "../../../public/images/Mumbai/BandraKurlaComplex/BandraKurlaComplex3.jpg";
+import SantaCruz1 from "../../../public/images/Mumbai/SantaCruz/SantaCruz1.jpg";
+import SantaCruz2 from "../../../public/images/Mumbai/SantaCruz/SantaCruz2.jpg";
+import SantaCruz3 from "../../../public/images/Mumbai/SantaCruz/SantaCruz3.jpg";
+import Powai1 from "../../../public/images/Mumbai/Powai/Powai1.jpg";
+import Powai2 from "../../../public/images/Mumbai/Powai/Powai2.jpg";
+import Powai3 from "../../../public/images/Mumbai/Powai/Powai3.jpg";
+import Airoli1 from "../../../public/images/Mumbai/Airoli/Airoli1.jpg";
+import Airoli2 from "../../../public/images/Mumbai/Airoli/Airoli2.jpg";
+import Airoli3 from "../../../public/images/Mumbai/Airoli/Airoli3.jpg";
+import Kandivali1 from "../../../public/images/Mumbai/Kandivali/Kandivali1.jpg";
+import Kandivali2 from "../../../public/images/Mumbai/Kandivali/Kandivali2.jpg";
+import Kandivali3 from "../../../public/images/Mumbai/Kandivali/Kandivali3.jpg";
+import MaladWest1 from "../../../public/images/Mumbai/MaladWest/MaladWest1.jpg";
+import MaladWest2 from "../../../public/images/Mumbai/MaladWest/MaladWest2.jpg";
 
 import Sector431 from "../../../public/images/Gurgaon/Sector43/Sector431.webp";
 import Sector432 from "../../../public/images/Gurgaon/Sector43/Sector432.jpg";
@@ -227,6 +250,19 @@ const images = {
   sector62: [Sector621, Sector622],
   sector63: [Sector633, Sector632, Sector631],
   sector132: [Sector1321, Sector1322],
+  //mumbai
+  laxmibusinesscentre: [BandraWest2, BandraWest3, BandraWest1],
+  andheri: [Andheri1, Andheri2, Andheri3],
+  kandrakurlacomplex: [
+    BandraKurlaComplex1,
+    BandraKurlaComplex2,
+    BandraKurlaComplex3,
+  ],
+  santacruz: [SantaCruz1, SantaCruz2, SantaCruz3],
+  powai: [Powai1, Powai2, Powai3],
+  airoli: [Airoli1, Airoli2, Airoli3],
+  kandivaliwest: [Kandivali1, Kandivali2, Kandivali3],
+  maladwest: [MaladWest1, MaladWest2],
 };
 
 function LocationSlider({ name = "mytimecowork", id = "mytimecowork" }) {
