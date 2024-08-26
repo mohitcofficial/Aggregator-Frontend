@@ -51,6 +51,32 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-16609409855');
           `}
         </Script>
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KQWV7CENMY"
+          strategy="lazyOnLoad"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KQWV7CENMY');
+          `}
+        </Script>
+
+        {/* Google Tag Manager */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T55KLQJJ');
+          `}
+        </Script>
+        {/* clarity script*/}
         <Script
           id="text-script"
           type="text/javascript"
@@ -65,8 +91,8 @@ export default function RootLayout({ children }) {
         `}
         </Script>
       </head>
-      <GoogleAnalytics gaId="G-KQWV7CENMY" />
-      <GoogleTagManager gtmId="GTM-T55KLQJJ" />
+      {/* <GoogleAnalytics gaId="G-KQWV7CENMY" />
+      <GoogleTagManager gtmId="GTM-T55KLQJJ" /> */}
       <body
         className={poppins.className}
         style={{ width: "100%", maxWidth: "100%" }}

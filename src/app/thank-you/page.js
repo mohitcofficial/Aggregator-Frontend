@@ -7,8 +7,6 @@ import Script from "next/script";
 import PartnershipImage from "../../../public/images/Partnership.jpg";
 import Logo from "../../../public/images/TransparentLogo.png";
 import classes from "./page.module.css";
-import { sendGAEvent } from "@next/third-parties/google";
-import { sendGTMEvent } from "@next/third-parties/google";
 import { useEffect } from "react";
 
 function Page() {
@@ -17,7 +15,7 @@ function Page() {
 
   useEffect(() => {
     sendConversionEvent();
-  }, []);
+  }, [window?.gtag]);
 
   const sendConversionEvent = () => {
     if (window.gtag) {
