@@ -110,6 +110,26 @@ import iblueentertainment2 from "../../../public/images/Bangalore/iblueentertain
 import iblueentertainment3 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment3.jpg";
 import iblueentertainment4 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment4.jpg";
 import iblueentertainment5 from "../../../public/images/Bangalore/iblueentertainment/iblueentertainment5.jpg";
+import WhiteField1 from "../../../public/images/Bangalore/WhiteField/WhiteField1.jpg";
+import WhiteField2 from "../../../public/images/Bangalore/WhiteField/WhiteField2.jpg";
+import WhiteField3 from "../../../public/images/Bangalore/WhiteField/WhiteField3.jpg";
+import WhiteField4 from "../../../public/images/Bangalore/WhiteField/WhiteField4.jpg";
+import Indiranagar1 from "../../../public/images/Bangalore/Indiranagar/Indiranagar1.jpg";
+import Indiranagar2 from "../../../public/images/Bangalore/Indiranagar/Indiranagar2.jpg";
+import Indiranagar3 from "../../../public/images/Bangalore/Indiranagar/Indiranagar3.jpg";
+import Indiranagar4 from "../../../public/images/Bangalore/Indiranagar/Indiranagar4.jpg";
+import HSRLayout1 from "../../../public/images/Bangalore/HSRLayout/HSRLayout1.jpg";
+import HSRLayout2 from "../../../public/images/Bangalore/HSRLayout/HSRLayout2.jpg";
+import HSRLayout3 from "../../../public/images/Bangalore/HSRLayout/HSRLayout3.jpg";
+import HSRLayout4 from "../../../public/images/Bangalore/HSRLayout/HSRLayout4.jpg";
+import Koramangala1 from "../../../public/images/Bangalore/Koramangala/Koramangala1.jpg";
+import Koramangala2 from "../../../public/images/Bangalore/Koramangala/Koramangala2.jpg";
+import Koramangala3 from "../../../public/images/Bangalore/Koramangala/Koramangala3.jpeg";
+import Ganganagar1 from "../../../public/images/Bangalore/Ganganagar/Ganganagar1.jpg";
+import Ganganagar2 from "../../../public/images/Bangalore/Ganganagar/Ganganagar2.jpeg";
+import Ganganagar3 from "../../../public/images/Bangalore/Ganganagar/Ganganagar3.jpg";
+import Ganganagar4 from "../../../public/images/Bangalore/Ganganagar/Ganganagar4.jpg";
+
 import Sector431 from "../../../public/images/Gurgaon/Sector43/Sector431.webp";
 import Sector432 from "../../../public/images/Gurgaon/Sector43/Sector432.jpg";
 import Sector433 from "../../../public/images/Gurgaon/Sector43/Sector433.jpeg";
@@ -148,7 +168,6 @@ const images = {
 
   havlhitech: [Anna5, Anna2, Anna3, Anna6, Anna8],
   workyard: [Industrial6, Industrial7, Industrial5, Industrial1, Industrial4],
-  iblueentertainment: [],
   laxmibusinesscentre: [],
   b2bbusinesscentre: [],
   wisdom: [],
@@ -178,6 +197,7 @@ const images = {
     MukherjeeRd1,
   ],
   vernawisdom: [Verna6, Verna5, Verna2, Verna3, Verna7],
+  //bangalore
   iblueentertainment: [
     iblueentertainment1,
     iblueentertainment2,
@@ -185,6 +205,11 @@ const images = {
     iblueentertainment3,
     iblueentertainment5,
   ],
+  whitefield: [WhiteField1, WhiteField2, WhiteField3, WhiteField4],
+  indiranagar: [Indiranagar1, Indiranagar2, Indiranagar3, Indiranagar4],
+  hsrLayout: [HSRLayout1, HSRLayout2, HSRLayout3, HSRLayout4],
+  koramangala: [Koramangala1, Koramangala2, Koramangala3],
+  ganganagar: [Ganganagar1, Ganganagar2, Ganganagar3, Ganganagar4],
   //Noida
   sector3: [
     Sector31,
