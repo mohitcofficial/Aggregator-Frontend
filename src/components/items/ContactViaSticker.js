@@ -5,8 +5,8 @@ import XIcon from "@mui/icons-material/X";
 import classes from "./ContactViaSticker.module.css";
 
 function ContactViaSticker() {
-  const fontSize = { xs: 24, sm: 26, md: 30, lg: 30 };
-  const fontSize2 = { xs: 18, sm: 20, md: 24, lg: 24 };
+  const fontSize = { xs: 24, sm: 26, md: 28, lg: 28 };
+  const fontSize2 = { xs: 18, sm: 20, md: 22, lg: 22 };
   return (
     <div className={classes.container}>
       <a

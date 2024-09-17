@@ -211,13 +211,13 @@ function Footer() {
               <LocationOnIcon
                 sx={{ color: "rgb(254, 173, 22);", marginRight: "8px" }}
               />
-              <p>Lower Ground Floor, Saket Salcon Rasvilas,</p>
+              <p>293, Lane-2, Westend Marg,</p>
             </div>
             <p className={classes.text2} style={{ margin: "0 0 4px 32px" }}>
-              Saket District Centre, Sector 6, Pushp Vihar,
+              Near Saket Metro Station Gate No – 02,
             </p>
             <p className={classes.text2} style={{ margin: "0 0 4px 32px" }}>
-              Next to Select City Walk Mall, Delhi 110017
+              Saket, New Delhi, Delhi 110030
             </p>
           </div>
         </div>

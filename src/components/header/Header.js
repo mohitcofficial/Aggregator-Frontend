@@ -53,12 +53,17 @@ function Header({ dark = false }) {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 20 && window.scrollY <= 40) {
+        setNavBorder(true);
         setNavbarBg("rgb(0, 0, 0, 0.6)");
+        setNavbarBg("rgba(22, 22, 23, .75)");
       } else if (window.scrollY > 40 && window.scrollY < 250) {
+        setNavBorder(true);
         setNavbarBg("rgb(0, 0, 0, 0.8)");
+        setNavbarBg("rgba(22, 22, 23, .75)");
       } else if (window.scrollY >= 250) {
         setNavBorder(true);
         setNavbarBg("#191c20");
+        setNavbarBg("rgba(22, 22, 23, .75)");
       } else {
         setNavBorder(false);
         setNavbarBg("transparent");
@@ -84,6 +89,7 @@ function Header({ dark = false }) {
       style={{
         backgroundColor: dark ? "#191c20" : navbarBg,
         borderBottom: navBorder ? "0.6px solid rgb(145, 145, 145)" : "none",
+        backdropFilter: navBorder && "saturate(180%) blur(20px)",
       }}
     >
       <div className={classes.navContainer}>
