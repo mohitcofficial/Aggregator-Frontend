@@ -30,7 +30,6 @@
   align-items: center;
   cursor: pointer;
   margin: 0 24px;
-  font-size: 27px;
 }
 
 .imageContainer {
@@ -57,18 +56,6 @@
   );
   -webkit-background-clip: text;
   color: transparent;
-}
-
-.firstPart {
-  font-weight: 600;
-  padding: 4px 0;
-  color: rgb(252, 171, 20);
-}
-
-.secondPart {
-  font-weight: 600;
-  padding: 4px 6px;
-  color: white;
 }
 
 .navlist {

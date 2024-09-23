@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16609409855"
-          strategy="lazyOnLoad"
+          strategy="afterInteractive"
         />
         <Script id="google-conversion-gtag" strategy="lazyOnLoad">
           {`
